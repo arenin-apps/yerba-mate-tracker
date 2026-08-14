@@ -1,0 +1,20 @@
+{
+  "_comentario": "Productos que el robot no puede leer automáticamente (Amazon y eBay). Edítalos a mano cuando cambien. Si añades tu ID de afiliado, hazlo aquí en la URL.",
+  "envios": {
+    "Urushop": { "coste": 3.99, "gratisDesde": 60 },
+    "Casa Argentina": { "coste": 4.95, "gratisDesde": 50 },
+    "Amazon": { "coste": 0, "nota": "Gratis con Prime" },
+    "eBay": { "nota": "Varía" }
+  },
+  "items": [
+    { "brand": "Taragüi", "title": "Taragüi con Palo Tradicional 500g", "weight": "500g", "grams": 500, "price": 5.99, "shop": "Amazon", "url": "https://www.amazon.co.uk/s?k=yerba+mate+taragui+500g&i=grocery", "isPromo": true, "promoDetails": "Amazon's Choice" },
+    { "brand": "Rosamonte", "title": "Rosamonte Yerba Mate Suave 500g", "weight": "500g", "grams": 500, "price": 6.49, "shop": "Amazon", "url": "https://www.amazon.co.uk/s?k=yerba+mate+rosamonte+500g&i=grocery", "isPromo": true, "promoDetails": "Amazon's Choice" },
+    { "brand": "Playadito", "title": "Playadito Yerba Mate Tradicional 500g", "weight": "500g", "grams": 500, "price": 7.50, "shop": "Amazon", "url": "https://www.amazon.co.uk/s?k=yerba+mate+playadito+500g&i=grocery", "isPromo": false, "promoDetails": "" },
+    { "brand": "Canarias", "title": "Canarias Yerba Mate Amarilla 500g", "weight": "500g", "grams": 500, "price": 6.90, "shop": "eBay", "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+canarias+500g&LH_BIN=1", "isPromo": false, "promoDetails": "Envío gratis" },
+    { "brand": "Taragüi", "title": "Taragüi con Palo Tradicional 1kg", "weight": "1kg", "grams": 1000, "price": 8.99, "shop": "Amazon", "url": "https://www.amazon.co.uk/s?k=yerba+mate+taragui+1kg&i=grocery", "isPromo": true, "promoDetails": "Amazon's Choice" },
+    { "brand": "Rosamonte", "title": "Rosamonte Suave Tradicional 1kg", "weight": "1kg", "grams": 1000, "price": 9.99, "shop": "Amazon", "url": "https://www.amazon.co.uk/s?k=yerba+mate+rosamonte+1kg&i=grocery", "isPromo": true, "promoDetails": "Amazon's Choice" },
+    { "brand": "Cruz de Malta", "title": "Cruz de Malta Tradicional 1kg", "weight": "1kg", "grams": 1000, "price": 10.50, "shop": "Amazon", "url": "https://www.amazon.co.uk/s?k=yerba+mate+cruz+de+malta+1kg&i=grocery", "isPromo": false, "promoDetails": "" },
+    { "brand": "Playadito", "title": "Playadito Tradicional con Palo 1kg", "weight": "1kg", "grams": 1000, "price": 9.50, "shop": "eBay", "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+playadito+1kg&LH_BIN=1", "isPromo": false, "promoDetails": "Envío gratis" },
+    { "brand": "Canarias", "title": "Canarias Tradicional Amarilla 1kg", "weight": "1kg", "grams": 1000, "price": 10.99, "shop": "eBay", "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+canarias+1kg&LH_BIN=1", "isPromo": false, "promoDetails": "Envío gratis" }
+  ]
+}

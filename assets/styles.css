@@ -1,0 +1,211 @@
+/* Comparador de yerba mate — estilos propios.
+   Todo va dentro de .ym para no chocar con el CSS del resto de arenin.uk */
+
+.ym {
+  --mate-50: #f4f6f0;
+  --mate-100: #e3e9da;
+  --mate-600: #5b7a3e;
+  --mate-700: #46602e;
+  --mate-900: #1e2c13;
+  --gourd: #d9a05b;
+  --gourd-dark: #b9803c;
+  --ink: #1f2a1c;
+  --muted: #6b7566;
+  --line: #dfe4d8;
+  --paper: #ffffff;
+  --radius: 14px;
+
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  color: var(--ink);
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+.ym *, .ym *::before, .ym *::after { box-sizing: inherit; }
+.ym h1, .ym h2, .ym p, .ym ul, .ym fieldset { margin: 0; }
+.ym ul { list-style: none; padding: 0; }
+.ym fieldset { border: 0; padding: 0; }
+.ym :focus-visible { outline: 2px solid var(--mate-700); outline-offset: 2px; border-radius: 6px; }
+
+.ym-sr {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* --- Cabecera --- */
+.ym-hero {
+  background: linear-gradient(135deg, var(--mate-900), var(--mate-700));
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+.ym-hero__text { max-width: 46rem; }
+.ym-eyebrow {
+  font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--gourd); margin-bottom: 8px;
+}
+.ym-hero h1 { font-size: clamp(1.6rem, 4vw, 2.3rem); font-weight: 800; letter-spacing: -.02em; }
+.ym-lede { color: var(--mate-100); margin-top: 8px; font-size: 15px; }
+
+.ym-status {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 12px;
+  padding: 14px 16px;
+  min-width: 230px;
+}
+.ym-status__label {
+  font-size: 10px; text-transform: uppercase; letter-spacing: .12em;
+  color: var(--mate-100); font-weight: 700;
+}
+.ym-status__date { font-weight: 600; margin: 4px 0 8px; font-size: 14px; }
+.ym-badge {
+  display: inline-block; font-size: 11px; font-weight: 700;
+  padding: 3px 9px; border-radius: 999px;
+  background: rgba(255,255,255,.14); color: #fff;
+}
+.ym-badge[data-state="fresh"] { background: #1f6b45; }
+.ym-badge[data-state="stale"] { background: #8a5a12; }
+.ym-badge[data-state="error"] { background: #8c2f2f; }
+
+/* --- Rejilla --- */
+.ym-grid { display: grid; grid-template-columns: 260px 1fr; gap: 24px; align-items: start; }
+@media (max-width: 860px) { .ym-grid { grid-template-columns: 1fr; } }
+
+.ym-side { display: grid; gap: 16px; }
+.ym-main { display: grid; gap: 16px; min-width: 0; }
+
+.ym-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.ym-card--flush { padding: 0; overflow: hidden; }
+.ym-card__title { font-size: 16px; font-weight: 800; letter-spacing: -.01em; }
+
+.ym-label {
+  display: block; font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .1em; color: var(--muted); margin: 16px 0 6px;
+}
+.ym-card > .ym-label:first-of-type { margin-top: 14px; }
+
+.ym-input, .ym-select {
+  width: 100%; padding: 9px 11px; font: inherit; font-size: 14px;
+  border: 1px solid var(--line); border-radius: 9px; background: var(--mate-50);
+  color: var(--ink);
+}
+.ym-select { background: var(--paper); width: auto; }
+.ym-fieldset { margin-top: 4px; }
+
+.ym-checks { display: grid; gap: 7px; }
+.ym-checks label { display: flex; gap: 8px; align-items: center; font-size: 14px; cursor: pointer; }
+.ym-checks input { accent-color: var(--mate-700); width: 15px; height: 15px; }
+
+.ym-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.ym-pill {
+  font: inherit; font-size: 12px; font-weight: 600; cursor: pointer;
+  padding: 4px 9px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--mate-50); color: var(--ink);
+}
+.ym-pill[aria-pressed="true"] { background: var(--mate-700); border-color: var(--mate-700); color: #fff; }
+
+.ym-link-btn {
+  margin-top: 16px; background: none; border: 0; padding: 0; cursor: pointer;
+  font: inherit; font-size: 13px; font-weight: 700; color: var(--mate-700);
+  text-decoration: underline; text-underline-offset: 3px;
+}
+
+.ym-ship { display: grid; gap: 9px; margin-top: 12px; font-size: 13px; }
+.ym-ship li { display: flex; justify-content: space-between; gap: 12px; }
+.ym-ship strong { font-weight: 600; }
+.ym-ship span { font-family: "IBM Plex Mono", ui-monospace, monospace; font-weight: 600; }
+.ym-ship small { display: block; color: var(--muted); font-size: 11px; }
+
+.ym-switch {
+  display: flex; gap: 8px; align-items: center; margin-top: 16px;
+  font-size: 13px; font-weight: 600; cursor: pointer;
+}
+.ym-switch input { accent-color: var(--mate-700); width: 15px; height: 15px; }
+.ym-note { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+/* --- Pestañas --- */
+.ym-tabs { display: flex; gap: 8px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 6px; }
+.ym-tab {
+  flex: 1; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer;
+  padding: 11px 14px; border: 0; border-radius: 10px; background: transparent; color: var(--muted);
+}
+.ym-tab[aria-selected="true"] { background: var(--mate-700); color: #fff; }
+.ym-tab__count {
+  font-family: "IBM Plex Mono", monospace; font-size: 11px;
+  padding: 1px 6px; border-radius: 999px; background: rgba(0,0,0,.09); margin-left: 6px;
+}
+.ym-tab[aria-selected="true"] .ym-tab__count { background: rgba(255,255,255,.22); }
+
+/* --- Tabla --- */
+.ym-table-head {
+  display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-items: flex-end;
+  padding: 20px; border-bottom: 1px solid var(--line); background: #fbfcfa;
+}
+.ym-sort { display: flex; gap: 8px; align-items: center; }
+.ym-sort .ym-label { margin: 0; }
+
+.ym-table-wrap { overflow-x: auto; }
+.ym-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.ym-table th {
+  text-align: left; font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--muted); padding: 12px 14px; border-bottom: 1px solid var(--line); white-space: nowrap;
+}
+.ym-table td { padding: 13px 14px; border-bottom: 1px solid var(--mate-50); vertical-align: middle; }
+.ym-table tbody tr:hover { background: #fafbf8; }
+.ym-num, .ym-table td.ym-num { text-align: right; font-family: "IBM Plex Mono", monospace; }
+.ym-th-pos { width: 46px; }
+
+.ym-pos { font-family: "IBM Plex Mono", monospace; font-weight: 600; color: var(--muted); }
+.ym-pos--top { color: var(--gourd-dark); font-weight: 700; }
+.ym-prod { font-weight: 600; display: block; }
+.ym-prod small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; margin-top: 2px; }
+.ym-price { font-weight: 700; font-size: 15px; }
+.ym-kilo { color: var(--muted); }
+.ym-ship-cell { font-size: 12px; color: var(--muted); white-space: nowrap; }
+
+.ym-tag {
+  display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .05em; padding: 2px 7px; border-radius: 6px;
+  background: var(--mate-50); border: 1px solid var(--line); color: var(--mate-900);
+  white-space: nowrap;
+}
+.ym-tag--promo { background: #fdf0e3; border-color: #f0d3ac; color: #8a5a12; margin-left: 6px; }
+
+.ym-go {
+  display: inline-block; font-size: 12px; font-weight: 700; text-decoration: none;
+  padding: 7px 12px; border-radius: 9px; background: var(--mate-600); color: #fff; white-space: nowrap;
+}
+.ym-go:hover { background: var(--mate-700); }
+
+.ym-empty, .ym-error { padding: 44px 20px; text-align: center; }
+.ym-empty__title { font-weight: 700; }
+.ym-disclaimer { font-size: 12px; color: var(--muted); }
+
+@media (max-width: 620px) {
+  .ym-table thead { display: none; }
+  .ym-table tbody tr { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 14px; border-bottom: 1px solid var(--line); }
+  .ym-table td { border: 0; padding: 0; }
+  .ym-table td[data-col="pos"] { display: none; }
+  .ym-table td[data-col="prod"] { grid-column: 1 / -1; }
+  .ym-table td[data-col="price"], .ym-table td.ym-num { text-align: left; }
+  .ym-table td[data-col="link"] { grid-row: span 3; align-self: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ym * { transition: none !important; animation: none !important; }
+}

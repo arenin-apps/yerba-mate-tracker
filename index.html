@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Precios de yerba mate en UK — comparador actualizado a diario</title>
+<meta name="description" content="Compara los precios de la yerba mate en el Reino Unido: Urushop, Casa Argentina, Amazon y eBay. Precio por kilo, ofertas y costes de envío, actualizado cada día.">
+<link rel="canonical" href="https://arenin.uk/yerba-mate/">
+<meta property="og:title" content="Precios de yerba mate en UK">
+<meta property="og:description" content="Comparador diario de precios de yerba mate en el Reino Unido, con precio por kilo y costes de envío.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="ym" id="ym-app">
+
+  <header class="ym-hero">
+    <div class="ym-hero__text">
+      <p class="ym-eyebrow">Mercado UK</p>
+      <h1>Precios de yerba mate en el Reino Unido</h1>
+      <p class="ym-lede">Urushop, Casa Argentina, Amazon y eBay, comparados por precio real por kilo. Los datos se actualizan solos cada día.</p>
+    </div>
+    <div class="ym-status" id="ym-status">
+      <span class="ym-status__label">Datos</span>
+      <p class="ym-status__date" id="ym-update-text">Cargando…</p>
+      <span class="ym-badge" id="ym-status-badge" data-state="loading">Comprobando</span>
+    </div>
+  </header>
+
+  <div class="ym-grid">
+
+    <aside class="ym-side">
+      <section class="ym-card">
+        <h2 class="ym-card__title">Filtrar</h2>
+
+        <label class="ym-label" for="ym-search">Marca o producto</label>
+        <input type="search" id="ym-search" class="ym-input" placeholder="Playadito, Taragüi…" autocomplete="off">
+
+        <fieldset class="ym-fieldset">
+          <legend class="ym-label">Tienda</legend>
+          <div id="ym-shops" class="ym-checks"></div>
+        </fieldset>
+
+        <fieldset class="ym-fieldset">
+          <legend class="ym-label">Marca</legend>
+          <div id="ym-brands" class="ym-pills"></div>
+        </fieldset>
+
+        <button type="button" class="ym-link-btn" id="ym-clear">Quitar todos los filtros</button>
+      </section>
+
+      <section class="ym-card">
+        <h2 class="ym-card__title">Envío</h2>
+        <ul class="ym-ship" id="ym-shipping"></ul>
+        <label class="ym-switch">
+          <input type="checkbox" id="ym-include-shipping">
+          <span>Sumar el envío al precio</span>
+        </label>
+        <p class="ym-note">Con esta opción el precio incluye el envío estándar de una unidad. Comprando varios paquetes casi siempre sale más barato.</p>
+      </section>
+    </aside>
+
+    <main class="ym-main">
+      <div class="ym-tabs" role="tablist" aria-label="Formato">
+        <button type="button" role="tab" id="ym-tab-500" class="ym-tab" aria-selected="true" data-weight="500g">
+          Medio kilo <span class="ym-tab__count" id="ym-count-500">–</span>
+        </button>
+        <button type="button" role="tab" id="ym-tab-1000" class="ym-tab" aria-selected="false" data-weight="1kg">
+          Un kilo <span class="ym-tab__count" id="ym-count-1000">–</span>
+        </button>
+      </div>
+
+      <section class="ym-card ym-card--flush">
+        <div class="ym-table-head">
+          <div>
+            <h2 class="ym-card__title" id="ym-table-title">Los 20 más baratos</h2>
+            <p class="ym-note" id="ym-table-sub">Ordenados por precio por kilo, que es lo que permite comparar formatos distintos.</p>
+          </div>
+          <label class="ym-sort">
+            <span class="ym-label">Ordenar por</span>
+            <select id="ym-sort" class="ym-select">
+              <option value="kilo-asc">Precio por kilo</option>
+              <option value="price-asc">Precio del paquete</option>
+              <option value="price-desc">Precio: mayor a menor</option>
+              <option value="brand-asc">Marca (A-Z)</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="ym-table-wrap">
+          <table class="ym-table">
+            <thead>
+              <tr>
+                <th scope="col" class="ym-th-pos">#</th>
+                <th scope="col">Producto</th>
+                <th scope="col">Tienda</th>
+                <th scope="col" class="ym-num">Precio</th>
+                <th scope="col" class="ym-num">Por kilo</th>
+                <th scope="col">Envío</th>
+                <th scope="col"><span class="ym-sr">Enlace</span></th>
+              </tr>
+            </thead>
+            <tbody id="ym-tbody"></tbody>
+          </table>
+        </div>
+
+        <div id="ym-empty" class="ym-empty" hidden>
+          <p class="ym-empty__title">Ningún producto coincide con estos filtros</p>
+          <p class="ym-note">Prueba a quitar una marca o una tienda del filtro.</p>
+        </div>
+
+        <div id="ym-error" class="ym-error" hidden>
+          <p class="ym-empty__title">No se pudieron cargar los precios</p>
+          <p class="ym-note" id="ym-error-detail"></p>
+        </div>
+      </section>
+
+      <p class="ym-disclaimer">
+        Precios orientativos recogidos automáticamente de las webs de las tiendas. Confirma siempre el precio final en la tienda antes de comprar.
+        <span id="ym-affiliate" hidden>Algunos enlaces son de afiliado: si compras a través de ellos, esta web puede recibir una comisión sin coste extra para ti.</span>
+      </p>
+    </main>
+  </div>
+</div>
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>
