@@ -1,24 +1,33 @@
-/* Comparador de yerba mate — estilos propios.
+/* Comparador de yerba mate — estilos propios, paleta oscura.
    Todo va dentro de .ym para no chocar con el CSS del resto de arenin.uk */
 
 .ym {
-  --mate-50: #f4f6f0;
-  --mate-100: #e3e9da;
-  --mate-600: #5b7a3e;
-  --mate-700: #46602e;
-  --mate-900: #1e2c13;
-  --gourd: #d9a05b;
-  --gourd-dark: #b9803c;
-  --ink: #1f2a1c;
-  --muted: #6b7566;
-  --line: #dfe4d8;
-  --paper: #ffffff;
-  --radius: 14px;
+  /* Fondos: del más oscuro (la página) al más claro (tarjetas y filas) */
+  --fondo: #121a0e;
+  --panel: #1b2614;
+  --panel-alto: #24331b;
+  --linea: #33452a;
+
+  /* Texto */
+  --texto: #eef2e6;
+  --texto-suave: #a6b596;
+
+  /* Verdes de marca */
+  --mate: #5b7a3e;
+  --mate-claro: #8fb168;
+
+  /* Amarillo calabaza, el acento */
+  --gourd: #e0a95f;
+  --gourd-fuerte: #c98a37;
+
+  --radio: 14px;
 
   max-width: 1180px;
   margin: 0 auto;
   padding: 24px 16px 48px;
-  color: var(--ink);
+  background: var(--fondo);
+  color: var(--texto);
+  color-scheme: dark;              /* desplegables y scrollbars nativos en oscuro */
   font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 15px;
   line-height: 1.5;
@@ -28,7 +37,7 @@
 .ym h1, .ym h2, .ym p, .ym ul, .ym fieldset { margin: 0; }
 .ym ul { list-style: none; padding: 0; }
 .ym fieldset { border: 0; padding: 0; }
-.ym :focus-visible { outline: 2px solid var(--mate-700); outline-offset: 2px; border-radius: 6px; }
+.ym :focus-visible { outline: 2px solid var(--gourd); outline-offset: 2px; border-radius: 6px; }
 
 .ym-sr {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
@@ -37,10 +46,12 @@
 
 /* --- Cabecera --- */
 .ym-hero {
-  background: linear-gradient(135deg, var(--mate-900), var(--mate-700));
-  color: #fff;
-  border-radius: var(--radius);
-  padding: 28px;
+  background:
+    radial-gradient(120% 140% at 85% 0%, rgba(224,169,95,.16), transparent 60%),
+    linear-gradient(150deg, #2c3d1e, #16200f);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  padding: 30px 28px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -50,32 +61,35 @@
 }
 .ym-hero__text { max-width: 46rem; }
 .ym-eyebrow {
-  font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase;
-  color: var(--gourd); margin-bottom: 8px;
+  font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--gourd); margin-bottom: 10px;
 }
-.ym-hero h1 { font-size: clamp(1.6rem, 4vw, 2.3rem); font-weight: 800; letter-spacing: -.02em; }
-.ym-lede { color: var(--mate-100); margin-top: 8px; font-size: 15px; }
+.ym-hero h1 {
+  font-size: clamp(1.6rem, 4vw, 2.35rem); font-weight: 800;
+  letter-spacing: -.02em; color: #fff;
+}
+.ym-lede { color: var(--texto-suave); margin-top: 10px; font-size: 15px; }
 
 .ym-status {
-  background: rgba(255,255,255,.08);
-  border: 1px solid rgba(255,255,255,.16);
+  background: rgba(0,0,0,.28);
+  border: 1px solid var(--linea);
   border-radius: 12px;
   padding: 14px 16px;
   min-width: 230px;
 }
 .ym-status__label {
   font-size: 10px; text-transform: uppercase; letter-spacing: .12em;
-  color: var(--mate-100); font-weight: 700;
+  color: var(--texto-suave); font-weight: 700;
 }
 .ym-status__date { font-weight: 600; margin: 4px 0 8px; font-size: 14px; }
 .ym-badge {
   display: inline-block; font-size: 11px; font-weight: 700;
   padding: 3px 9px; border-radius: 999px;
-  background: rgba(255,255,255,.14); color: #fff;
+  background: rgba(255,255,255,.1); color: var(--texto);
 }
-.ym-badge[data-state="fresh"] { background: #1f6b45; }
-.ym-badge[data-state="stale"] { background: #8a5a12; }
-.ym-badge[data-state="error"] { background: #8c2f2f; }
+.ym-badge[data-state="fresh"] { background: rgba(143,177,104,.22); color: var(--mate-claro); }
+.ym-badge[data-state="stale"] { background: rgba(224,169,95,.18); color: var(--gourd); }
+.ym-badge[data-state="error"] { background: rgba(217,110,110,.18); color: #e79191; }
 
 /* --- Rejilla --- */
 .ym-grid { display: grid; grid-template-columns: 260px 1fr; gap: 24px; align-items: start; }
@@ -85,76 +99,82 @@
 .ym-main { display: grid; gap: 16px; min-width: 0; }
 
 .ym-card {
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
+  background: var(--panel);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
   padding: 20px;
 }
 .ym-card--flush { padding: 0; overflow: hidden; }
-.ym-card__title { font-size: 16px; font-weight: 800; letter-spacing: -.01em; }
+.ym-card__title { font-size: 16px; font-weight: 800; letter-spacing: -.01em; color: #fff; }
 
 .ym-label {
   display: block; font-size: 11px; font-weight: 700; text-transform: uppercase;
-  letter-spacing: .1em; color: var(--muted); margin: 16px 0 6px;
+  letter-spacing: .1em; color: var(--texto-suave); margin: 16px 0 6px;
 }
 .ym-card > .ym-label:first-of-type { margin-top: 14px; }
 
 .ym-input, .ym-select {
   width: 100%; padding: 9px 11px; font: inherit; font-size: 14px;
-  border: 1px solid var(--line); border-radius: 9px; background: var(--mate-50);
-  color: var(--ink);
+  border: 1px solid var(--linea); border-radius: 9px;
+  background: #131c0f; color: var(--texto);
 }
-.ym-select { background: var(--paper); width: auto; }
+.ym-input::placeholder { color: #7d8a70; }
+.ym-select { width: auto; }
 .ym-fieldset { margin-top: 4px; }
 
 .ym-checks { display: grid; gap: 7px; }
 .ym-checks label { display: flex; gap: 8px; align-items: center; font-size: 14px; cursor: pointer; }
-.ym-checks input { accent-color: var(--mate-700); width: 15px; height: 15px; }
+.ym-checks input { accent-color: var(--gourd); width: 15px; height: 15px; }
 
 .ym-pills { display: flex; flex-wrap: wrap; gap: 6px; }
 .ym-pill {
   font: inherit; font-size: 12px; font-weight: 600; cursor: pointer;
   padding: 4px 9px; border-radius: 8px;
-  border: 1px solid var(--line); background: var(--mate-50); color: var(--ink);
+  border: 1px solid var(--linea); background: var(--panel-alto); color: var(--texto);
 }
-.ym-pill[aria-pressed="true"] { background: var(--mate-700); border-color: var(--mate-700); color: #fff; }
+.ym-pill:hover { border-color: var(--mate-claro); }
+.ym-pill[aria-pressed="true"] { background: var(--gourd); border-color: var(--gourd); color: #1a2412; }
 
 .ym-link-btn {
   margin-top: 16px; background: none; border: 0; padding: 0; cursor: pointer;
-  font: inherit; font-size: 13px; font-weight: 700; color: var(--mate-700);
+  font: inherit; font-size: 13px; font-weight: 700; color: var(--gourd);
   text-decoration: underline; text-underline-offset: 3px;
 }
 
 .ym-ship { display: grid; gap: 9px; margin-top: 12px; font-size: 13px; }
 .ym-ship li { display: flex; justify-content: space-between; gap: 12px; }
 .ym-ship strong { font-weight: 600; }
-.ym-ship span { font-family: "IBM Plex Mono", ui-monospace, monospace; font-weight: 600; }
-.ym-ship small { display: block; color: var(--muted); font-size: 11px; }
+.ym-ship span { font-family: "IBM Plex Mono", ui-monospace, monospace; font-weight: 600; color: var(--gourd); }
+.ym-ship small { display: block; color: var(--texto-suave); font-size: 11px; }
 
 .ym-switch {
   display: flex; gap: 8px; align-items: center; margin-top: 16px;
   font-size: 13px; font-weight: 600; cursor: pointer;
 }
-.ym-switch input { accent-color: var(--mate-700); width: 15px; height: 15px; }
-.ym-note { font-size: 12px; color: var(--muted); margin-top: 6px; }
+.ym-switch input { accent-color: var(--gourd); width: 15px; height: 15px; }
+.ym-note { font-size: 12px; color: var(--texto-suave); margin-top: 6px; }
 
 /* --- Pestañas --- */
-.ym-tabs { display: flex; gap: 8px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 6px; }
+.ym-tabs {
+  display: flex; gap: 8px; background: var(--panel);
+  border: 1px solid var(--linea); border-radius: var(--radio); padding: 6px;
+}
 .ym-tab {
   flex: 1; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer;
-  padding: 11px 14px; border: 0; border-radius: 10px; background: transparent; color: var(--muted);
+  padding: 11px 14px; border: 0; border-radius: 10px;
+  background: transparent; color: var(--texto-suave);
 }
-.ym-tab[aria-selected="true"] { background: var(--mate-700); color: #fff; }
+.ym-tab:hover { color: var(--texto); background: var(--panel-alto); }
+.ym-tab[aria-selected="true"] { background: var(--mate); color: #fff; }
 .ym-tab__count {
   font-family: "IBM Plex Mono", monospace; font-size: 11px;
-  padding: 1px 6px; border-radius: 999px; background: rgba(0,0,0,.09); margin-left: 6px;
+  padding: 1px 6px; border-radius: 999px; background: rgba(255,255,255,.12); margin-left: 6px;
 }
-.ym-tab[aria-selected="true"] .ym-tab__count { background: rgba(255,255,255,.22); }
 
 /* --- Tabla --- */
 .ym-table-head {
   display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-items: flex-end;
-  padding: 20px; border-bottom: 1px solid var(--line); background: #fbfcfa;
+  padding: 20px; border-bottom: 1px solid var(--linea); background: var(--panel-alto);
 }
 .ym-sort { display: flex; gap: 8px; align-items: center; }
 .ym-sort .ym-label { margin: 0; }
@@ -163,42 +183,46 @@
 .ym-table { width: 100%; border-collapse: collapse; font-size: 14px; }
 .ym-table th {
   text-align: left; font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
-  color: var(--muted); padding: 12px 14px; border-bottom: 1px solid var(--line); white-space: nowrap;
+  color: var(--texto-suave); padding: 12px 14px; border-bottom: 1px solid var(--linea); white-space: nowrap;
 }
-.ym-table td { padding: 13px 14px; border-bottom: 1px solid var(--mate-50); vertical-align: middle; }
-.ym-table tbody tr:hover { background: #fafbf8; }
+.ym-table td { padding: 13px 14px; border-bottom: 1px solid rgba(255,255,255,.06); vertical-align: middle; }
+.ym-table tbody tr:hover { background: var(--panel-alto); }
 .ym-num, .ym-table td.ym-num { text-align: right; font-family: "IBM Plex Mono", monospace; }
 .ym-th-pos { width: 46px; }
 
-.ym-pos { font-family: "IBM Plex Mono", monospace; font-weight: 600; color: var(--muted); }
-.ym-pos--top { color: var(--gourd-dark); font-weight: 700; }
-.ym-prod { font-weight: 600; display: block; }
-.ym-prod small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; margin-top: 2px; }
-.ym-price { font-weight: 700; font-size: 15px; }
-.ym-kilo { color: var(--muted); }
-.ym-ship-cell { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.ym-pos { font-family: "IBM Plex Mono", monospace; font-weight: 600; color: var(--texto-suave); }
+.ym-pos--top { color: var(--gourd); font-weight: 700; }
+.ym-prod { font-weight: 600; display: block; color: #fff; }
+.ym-prod small { display: block; font-weight: 400; color: var(--texto-suave); font-size: 12px; margin-top: 2px; }
+.ym-price { font-weight: 700; font-size: 15px; color: #fff; }
+.ym-kilo { color: var(--mate-claro); }
+.ym-ship-cell { font-size: 12px; color: var(--texto-suave); white-space: nowrap; }
 
 .ym-tag {
   display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase;
   letter-spacing: .05em; padding: 2px 7px; border-radius: 6px;
-  background: var(--mate-50); border: 1px solid var(--line); color: var(--mate-900);
+  background: rgba(255,255,255,.06); border: 1px solid var(--linea); color: var(--texto);
   white-space: nowrap;
 }
-.ym-tag--promo { background: #fdf0e3; border-color: #f0d3ac; color: #8a5a12; margin-left: 6px; }
+.ym-tag--promo {
+  background: rgba(224,169,95,.16); border-color: rgba(224,169,95,.4);
+  color: var(--gourd); margin-left: 6px;
+}
 
 .ym-go {
   display: inline-block; font-size: 12px; font-weight: 700; text-decoration: none;
-  padding: 7px 12px; border-radius: 9px; background: var(--mate-600); color: #fff; white-space: nowrap;
+  padding: 7px 12px; border-radius: 9px;
+  background: var(--gourd); color: #1a2412; white-space: nowrap;
 }
-.ym-go:hover { background: var(--mate-700); }
+.ym-go:hover { background: var(--gourd-fuerte); }
 
 .ym-empty, .ym-error { padding: 44px 20px; text-align: center; }
-.ym-empty__title { font-weight: 700; }
-.ym-disclaimer { font-size: 12px; color: var(--muted); }
+.ym-empty__title { font-weight: 700; color: #fff; }
+.ym-disclaimer { font-size: 12px; color: var(--texto-suave); }
 
 @media (max-width: 620px) {
   .ym-table thead { display: none; }
-  .ym-table tbody tr { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 14px; border-bottom: 1px solid var(--line); }
+  .ym-table tbody tr { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 14px; border-bottom: 1px solid var(--linea); }
   .ym-table td { border: 0; padding: 0; }
   .ym-table td[data-col="pos"] { display: none; }
   .ym-table td[data-col="prod"] { grid-column: 1 / -1; }
@@ -209,3 +233,8 @@
 @media (prefers-reduced-motion: reduce) {
   .ym * { transition: none !important; animation: none !important; }
 }
+
+/* La página que aloja la app también en oscuro.
+   Si algún día incrustas esto dentro de otra página de arenin.uk que ya
+   tenga su propio fondo, borra este bloque. */
+body { background: #121a0e; margin: 0; }
