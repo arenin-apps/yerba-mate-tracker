@@ -20,6 +20,150 @@
 
   var $ = function (id) { return document.getElementById(id); };
 
+  /* --- Idiomas ---------------------------------------------------------
+     El español manda: es lo que está escrito en el HTML y lo que ve
+     cualquiera que llegue sin haber elegido nada. */
+
+  var IDIOMA_CLAVE = 'ym_idioma';
+  var idioma = 'es';
+
+  var TEXTOS = {
+    en: {
+      h1: 'Yerba mate prices in the UK',
+      lede: 'Urushop, Casa Argentina, MateMundo and other UK shops, compared by real price per kilo. Updated every day.',
+      datos: 'Data',
+      filtrar: 'Filter',
+      marca_producto: 'Brand or product',
+      ph_busqueda: 'Playadito, Taragüi…',
+      tienda: 'Shop',
+      marca: 'Brand',
+      quitar_filtros: 'Clear all filters',
+      envio: 'Delivery',
+      sumar_envio: 'Include delivery in the price',
+      nota_envio: 'This adds standard delivery for a single pack. Buying several packs is almost always cheaper.',
+      medio_kilo: 'Half a kilo',
+      un_kilo: 'One kilo',
+      ordenar_por: 'Sort by',
+      orden_asc: 'Price: low to high',
+      orden_desc: 'Price: high to low',
+      orden_marca: 'Brand (A-Z)',
+      col_producto: 'Product',
+      col_tienda: 'Shop',
+      col_precio: 'Price',
+      col_kilo: 'Per kilo',
+      col_envio: 'Delivery',
+      vacio_titulo: 'No products match these filters',
+      vacio_texto: 'Try removing a brand or a shop from the filter.',
+      error_titulo: 'Prices could not be loaded',
+      aviso: 'Prices are collected automatically from the shops\' own websites and may change. Always check the final price in the shop before buying.',
+      afiliados: 'Some links are affiliate links: if you buy through them, this site may earn a commission at no extra cost to you.',
+      boton: 'Español',
+      boton_aria: 'Cambiar a español',
+      mas_baratos: 'The {n} cheapest',
+      un_resultado: 'One result',
+      resultados: '{n} results',
+      sub_kilo: 'Sorted by price per kilo, which is what lets you compare different pack sizes.',
+      sub_envio: 'The price includes standard delivery for a single pack.',
+      al_dia: 'Up to date',
+      desfasado: 'May be out of date',
+      sin_fecha: 'No date',
+      sin_conexion: 'Offline',
+      cargando: 'Checking',
+      fecha_desconocida: 'Unknown date',
+      no_disponible: 'Not available',
+      reintenta: 'Try again in a few minutes. Technical detail: ',
+      ver_tienda: 'View in shop',
+      sin_enlace: 'No link',
+      varia: 'Varies',
+      gratis_desde: 'Free over ',
+      consultar: 'Check shop',
+      rebajado: 'Reduced',
+      value_deal: 'Value deal',
+      envio_gratis: 'Free delivery',
+      envio_incluido: 'Delivery included',
+      oferta: 'Offer',
+      vacio_datos: 'The price file is empty.',
+      servidor: 'The server replied '
+    },
+    es: {
+      boton: 'English',
+      boton_aria: 'Switch to English',
+      mas_baratos: 'Los {n} más baratos',
+      un_resultado: 'Un resultado',
+      resultados: '{n} resultados',
+      sub_kilo: 'Ordenados por precio por kilo, que es lo que permite comparar formatos distintos.',
+      sub_envio: 'El precio incluye el envío estándar de una unidad.',
+      al_dia: 'Al día',
+      desfasado: 'Pueden estar desfasados',
+      sin_fecha: 'Sin fecha',
+      sin_conexion: 'Sin conexión',
+      cargando: 'Comprobando',
+      fecha_desconocida: 'Fecha desconocida',
+      no_disponible: 'No disponible',
+      reintenta: 'Vuelve a intentarlo en unos minutos. Detalle técnico: ',
+      ver_tienda: 'Ver en tienda',
+      sin_enlace: 'Sin enlace',
+      varia: 'Varía',
+      gratis_desde: 'Gratis desde ',
+      consultar: 'Consultar',
+      rebajado: 'Rebajado',
+      value_deal: 'Value deal',
+      envio_gratis: 'Envío gratis',
+      envio_incluido: 'Envío incluido',
+      oferta: 'Oferta',
+      vacio_datos: 'El archivo de precios está vacío.',
+      servidor: 'El servidor respondió '
+    }
+  };
+
+  // Los textos fijos en español viven en el HTML, así que los guardamos
+  // al arrancar para poder volver a ellos sin recargar la página.
+  var ORIGINAL_ES = {};
+
+  function t(clave, valores) {
+    var texto = (TEXTOS[idioma] && TEXTOS[idioma][clave]) || ORIGINAL_ES[clave] || clave;
+    if (valores) {
+      Object.keys(valores).forEach(function (k) {
+        texto = texto.replace('{' + k + '}', valores[k]);
+      });
+    }
+    return texto;
+  }
+
+  function guardarOriginales() {
+    document.querySelectorAll('#ym-app [data-i18n]').forEach(function (el) {
+      ORIGINAL_ES[el.dataset.i18n] = el.textContent;
+    });
+    document.querySelectorAll('#ym-app [data-i18n-ph]').forEach(function (el) {
+      ORIGINAL_ES[el.dataset.i18nPh] = el.placeholder;
+    });
+  }
+
+  function aplicarIdioma() {
+    document.querySelectorAll('#ym-app [data-i18n]').forEach(function (el) {
+      el.textContent = t(el.dataset.i18n);
+    });
+    document.querySelectorAll('#ym-app [data-i18n-ph]').forEach(function (el) {
+      el.placeholder = t(el.dataset.i18nPh);
+    });
+
+    var btn = $('ym-lang');
+    btn.textContent = t('boton');
+    btn.setAttribute('aria-label', t('boton_aria'));
+    document.documentElement.lang = idioma;
+
+    pintarEstado();
+    pintarEnvios();
+    aplicar();
+  }
+
+  function cambiarIdioma() {
+    idioma = idioma === 'es' ? 'en' : 'es';
+    try { localStorage.setItem(IDIOMA_CLAVE, idioma); } catch (e) { /* modo privado */ }
+    aplicarIdioma();
+  }
+
+
   /* --- utilidades seguras --------------------------------------------- */
 
   // Escapa el texto que venga del JSON antes de meterlo en el HTML.
@@ -35,6 +179,20 @@
       var u = new URL(valor, window.location.href);
       return (u.protocol === 'https:' || u.protocol === 'http:') ? u.href : '';
     } catch (e) { return ''; }
+  }
+
+  // El robot guarda una clave neutra (promoKey) para que la etiqueta
+  // pueda mostrarse en cualquier idioma. Los datos antiguos traen texto suelto.
+  function etiquetaPromo(item) {
+    if (item.promoKey && TEXTOS.es[item.promoKey]) return t(item.promoKey);
+    return item.promoDetails || t('oferta');
+  }
+
+  function textoNota(nota) {
+    if (!nota) return t('varia');
+    if (nota === 'Varía' || nota === 'Varies') return t('varia');
+    if (nota === 'Consultar') return t('consultar');
+    return nota;
   }
 
   function libras(n) { return '£' + Number(n).toFixed(2); }
@@ -60,12 +218,12 @@
   function cargar() {
     fetch(DATA_URL, { cache: 'no-cache' })
       .then(function (r) {
-        if (!r.ok) throw new Error('El servidor respondió ' + r.status);
+        if (!r.ok) throw new Error(t('servidor') + r.status);
         return r.json();
       })
       .then(function (data) {
         if (!data || !Array.isArray(data.items) || !data.items.length) {
-          throw new Error('El archivo de precios está vacío.');
+          throw new Error(t('vacio_datos'));
         }
         state.items = data.items.filter(function (i) {
           return i && typeof i.price === 'number' && i.price > 0 && i.weight && i.shop;
@@ -82,32 +240,31 @@
       })
       .catch(function (err) {
         $('ym-error').hidden = false;
-        $('ym-error-detail').textContent =
-          'Vuelve a intentarlo en unos minutos. Detalle técnico: ' + err.message;
-        $('ym-status-badge').textContent = 'Sin conexión';
+        $('ym-error-detail').textContent = t('reintenta') + err.message;
+        $('ym-status-badge').textContent = t('sin_conexion');
         $('ym-status-badge').setAttribute('data-state', 'error');
-        $('ym-update-text').textContent = 'No disponible';
+        $('ym-update-text').textContent = t('no_disponible');
       });
   }
 
   function pintarEstado() {
     var badge = $('ym-status-badge');
     if (!state.actualizado) {
-      $('ym-update-text').textContent = 'Fecha desconocida';
-      badge.textContent = 'Sin fecha';
+      $('ym-update-text').textContent = t('fecha_desconocida');
+      badge.textContent = t('sin_fecha');
       badge.setAttribute('data-state', 'stale');
       return;
     }
     var fecha = new Date(state.actualizado);
     var horas = (Date.now() - fecha.getTime()) / 36e5;
-    $('ym-update-text').textContent = fecha.toLocaleString('es-ES', {
+    $('ym-update-text').textContent = fecha.toLocaleString(idioma === 'en' ? 'en-GB' : 'es-ES', {
       day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit'
     });
     if (horas > HORAS_PARA_CADUCAR) {
-      badge.textContent = 'Pueden estar desfasados';
+      badge.textContent = t('desfasado');
       badge.setAttribute('data-state', 'stale');
     } else {
-      badge.textContent = 'Al día';
+      badge.textContent = t('al_dia');
       badge.setAttribute('data-state', 'fresh');
     }
   }
@@ -120,9 +277,9 @@
       var li = document.createElement('li');
       var izq = document.createElement('div');
       izq.innerHTML = '<strong>' + esc(tienda) + '</strong>' +
-        (e.gratisDesde ? '<small>Gratis desde ' + libras(e.gratisDesde) + '</small>' : '');
+        (e.gratisDesde ? '<small>' + t('gratis_desde') + libras(e.gratisDesde) + '</small>' : '');
       var der = document.createElement('span');
-      der.textContent = typeof e.coste === 'number' ? libras(e.coste) : (e.nota || 'Varía');
+      der.textContent = typeof e.coste === 'number' ? libras(e.coste) : textoNota(e.nota);
       li.appendChild(izq); li.appendChild(der);
       lista.appendChild(li);
     });
@@ -199,8 +356,7 @@
       return precioPorKilo(a) - precioPorKilo(b);
     }).slice(0, LIMITE);
 
-    if (orden === 'price-asc') masBaratos.sort(function (a, b) { return precioFinal(a) - precioFinal(b); });
-    else if (orden === 'price-desc') masBaratos.sort(function (a, b) { return precioFinal(b) - precioFinal(a); });
+    if (orden === 'price-desc') masBaratos.sort(function (a, b) { return precioFinal(b) - precioFinal(a); });
     else if (orden === 'brand-asc') masBaratos.sort(function (a, b) { return a.brand.localeCompare(b.brand, 'es'); });
 
     $('ym-count-500').textContent = filtrar('500g').length;
@@ -208,13 +364,14 @@
 
     var total = filas.length;
     $('ym-table-title').textContent = total > LIMITE
-      ? 'Los ' + LIMITE + ' más baratos'
-      : (total === 1 ? 'Un resultado' : total + ' resultados');
+      ? t('mas_baratos', { n: LIMITE })
+      : (total === 1 ? t('un_resultado') : t('resultados', { n: total }));
+    $('ym-table-sub').textContent = state.conEnvio ? t('sub_envio') : t('sub_kilo');
 
-    pintarTabla(masBaratos);
+    pintarTabla(masBaratos, orden === 'price-asc');
   }
 
-  function pintarTabla(datos) {
+  function pintarTabla(datos, numerar) {
     var tbody = $('ym-tbody');
     tbody.innerHTML = '';
     $('ym-empty').hidden = datos.length > 0;
@@ -222,24 +379,26 @@
     datos.forEach(function (item, idx) {
       var href = urlSegura(item.url);
       var envio = state.envios[item.shop] || {};
-      var textoEnvio = typeof envio.coste === 'number' ? libras(envio.coste) : (envio.nota || 'Varía');
+      var textoEnvio = typeof envio.coste === 'number' ? libras(envio.coste) : textoNota(envio.nota);
       var promo = item.isPromo
-        ? '<span class="ym-tag ym-tag--promo">' + esc(item.promoDetails || 'Oferta') + '</span>'
+        ? '<span class="ym-tag ym-tag--promo">' + esc(etiquetaPromo(item)) + '</span>'
         : '';
 
       var tr = document.createElement('tr');
       tr.innerHTML =
-        '<td data-col="pos"><span class="ym-pos' + (idx < 3 ? ' ym-pos--top' : '') + '">' + (idx + 1) + '</span></td>' +
+        '<td data-col="pos">' + (numerar
+          ? '<span class="ym-pos' + (idx < 3 ? ' ym-pos--top' : '') + '">' + (idx + 1) + '</span>'
+          : '') + '</td>' +
         '<td data-col="prod"><span class="ym-prod">' + esc(item.brand) + promo +
           '<small>' + esc(item.title) + '</small></span></td>' +
         '<td><span class="ym-tag">' + esc(item.shop) + '</span></td>' +
         '<td class="ym-num" data-col="price"><span class="ym-price">' + libras(precioFinal(item)) + '</span></td>' +
         '<td class="ym-num"><span class="ym-kilo">' + libras(precioPorKilo(item)) + '/kg</span></td>' +
         '<td class="ym-ship-cell">' + esc(textoEnvio) +
-          (envio.gratisDesde ? '<br>Gratis desde ' + libras(envio.gratisDesde) : '') + '</td>' +
+          (envio.gratisDesde ? '<br>' + t('gratis_desde') + libras(envio.gratisDesde) : '') + '</td>' +
         '<td data-col="link">' + (href
-          ? '<a class="ym-go" href="' + esc(href) + '" target="_blank" rel="noopener noreferrer sponsored">Ver en tienda</a>'
-          : '<span class="ym-note">Sin enlace</span>') + '</td>';
+          ? '<a class="ym-go" href="' + esc(href) + '" target="_blank" rel="noopener noreferrer sponsored">' + t('ver_tienda') + '</a>'
+          : '<span class="ym-note">' + t('sin_enlace') + '</span>') + '</td>';
       tbody.appendChild(tr);
     });
   }
@@ -247,6 +406,15 @@
   /* --- eventos ---------------------------------------------------------- */
 
   function init() {
+    guardarOriginales();
+    try {
+      var guardado = localStorage.getItem(IDIOMA_CLAVE);
+      if (guardado === 'en' || guardado === 'es') idioma = guardado;
+    } catch (e) { /* modo privado */ }
+
+    $('ym-lang').addEventListener('click', cambiarIdioma);
+    if (idioma === 'en') aplicarIdioma();
+
     $('ym-search').addEventListener('input', aplicar);
     $('ym-sort').addEventListener('change', aplicar);
     $('ym-clear').addEventListener('click', function () {
@@ -258,9 +426,6 @@
     });
     $('ym-include-shipping').addEventListener('change', function (e) {
       state.conEnvio = e.target.checked;
-      $('ym-table-sub').textContent = state.conEnvio
-        ? 'El precio incluye el envío estándar de una unidad.'
-        : 'Ordenados por precio por kilo, que es lo que permite comparar formatos distintos.';
       aplicar();
     });
 
