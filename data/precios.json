@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-14T10:38:46.043Z",
+  "actualizado": "2026-08-14T06:00:00Z",
   "fuentesConError": [],
   "afiliados": false,
   "envios": {
@@ -11,10 +11,6 @@
       "coste": 4.95,
       "gratisDesde": 50
     },
-    "Amazon": {
-      "coste": 0,
-      "nota": "Gratis con Prime"
-    },
     "eBay": {
       "nota": "Varía"
     }
@@ -22,7 +18,18 @@
   "items": [
     {
       "brand": "Rosamonte",
-      "title": "Rosamonte Yerba Mate with Stems x 500g (BBE 23/05/26)",
+      "title": "Rosamonte Con Palo Selección Especial 1kg",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 5.5,
+      "shop": "Casa Argentina",
+      "url": "https://casaargentina.com/products/rosamonte-yerba-mate-with-stems-x-1kg",
+      "isPromo": true,
+      "promoDetails": "Rebajado"
+    },
+    {
+      "brand": "Rosamonte",
+      "title": "Rosamonte Con Palo Tradicional 500g",
       "weight": "500g",
       "grams": 500,
       "price": 2.95,
@@ -32,52 +39,30 @@
       "promoDetails": "Rebajado"
     },
     {
-      "brand": "Playadito",
-      "title": "Playadito Yerba Mate with stems x 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 6.5,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/playadito-yerba-mate-with-stems-x-1kg",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
       "brand": "Taragüi",
-      "title": "Taragui Yerba Mate with stems - Orange x 500g",
+      "title": "Taragüi Sabor Naranja Con Palo 500g",
       "weight": "500g",
       "grams": 500,
       "price": 3.25,
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-orange-x-500g",
       "isPromo": true,
-      "promoDetails": "Rebajado"
+      "promoDetails": "Oferta"
     },
     {
       "brand": "Taragüi",
-      "title": "Taragui Yerba Mate with stems - Citrus x 500g",
+      "title": "Taragüi Sabor Citrus Con Palo 500g",
       "weight": "500g",
       "grams": 500,
       "price": 3.25,
       "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-citrics-x-500g",
+      "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-citrus-x-500g",
       "isPromo": true,
-      "promoDetails": "Rebajado"
+      "promoDetails": "Oferta"
     },
     {
       "brand": "Taragüi",
-      "title": "Taragui Yerba Mate with stems Maracuya - Passion x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 3.25,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-passion-x-500g",
-      "isPromo": true,
-      "promoDetails": "Rebajado"
-    },
-    {
-      "brand": "Taragüi",
-      "title": "Taragui Yerba Mate with stems x 1kg",
+      "title": "Taragüi Tradicional Con Palo 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 6.9,
@@ -88,7 +73,7 @@
     },
     {
       "brand": "Mañanita",
-      "title": "Mañanita Yerba Mate with Stems x 1kg",
+      "title": "Mañanita Con Palo Tradicional 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 6.9,
@@ -99,7 +84,7 @@
     },
     {
       "brand": "Unión",
-      "title": "Union Yerba Mate Suave x 1kg",
+      "title": "Unión Suave Original 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 6.9,
@@ -109,30 +94,30 @@
       "promoDetails": ""
     },
     {
-      "brand": "Pajarito",
-      "title": "Yerba Mate Pajarito Tradicional 1Kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 6.99,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-pajarito-tradicional-1kg/",
-      "isPromo": false,
-      "promoDetails": ""
+      "brand": "Piporé",
+      "title": "Piporé Yerba Mate Con Palo 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 3.5,
+      "shop": "Casa Argentina",
+      "url": "https://casaargentina.com/products/pipore-yerba-mate-with-stems-x-500g",
+      "isPromo": true,
+      "promoDetails": "Rebajado"
     },
     {
       "brand": "Playadito",
-      "title": "Playadito Yerba Mate with stems x 500g",
+      "title": "Playadito Yerba Mate Con Palo 500g",
       "weight": "500g",
       "grams": 500,
       "price": 3.75,
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/playadito-yerba-mate-with-stems-x-500kg",
-      "isPromo": false,
-      "promoDetails": ""
+      "isPromo": true,
+      "promoDetails": "Oferta"
     },
     {
       "brand": "Playadito",
-      "title": "Yerba Mate Playadito 1kg",
+      "title": "Playadito Yerba Mate Tradicional 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 7.5,
@@ -142,19 +127,8 @@
       "promoDetails": ""
     },
     {
-      "brand": "CBSé",
-      "title": "Yerba Mate CbSe Hierbas Serranas 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 7.5,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-cbse-hierbas-serranas-1kg/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
       "brand": "Taragüi",
-      "title": "Yerba Mate Taragui Roja 1Kg",
+      "title": "Taragüi Con Palo Tradicional 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 7.5,
@@ -164,8 +138,19 @@
       "promoDetails": ""
     },
     {
+      "brand": "Pajarito",
+      "title": "Pajarito Especial Tradicional 1kg",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 7.5,
+      "shop": "Urushop",
+      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-pajarito-especial-1kg/",
+      "isPromo": false,
+      "promoDetails": ""
+    },
+    {
       "brand": "Unión",
-      "title": "Yerba Mate Union Suave 1Kg",
+      "title": "Unión Suave Con Palo Corrientes 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 7.5,
@@ -175,52 +160,8 @@
       "promoDetails": ""
     },
     {
-      "brand": "Unión",
-      "title": "Union Yerba Mate Suave Hierbas Serranas x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 3.95,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/skip-to-the-end-of-the-images-gallery-skip-to-the-beginning-of-the-images-gallery-union-yerba-mate-suave-hierbas-serranas-x-500g",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Unión",
-      "title": "Union Yerba Mate Suave x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 3.95,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/union-yerba-mate-suave-x-500g",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
       "brand": "Taragüi",
-      "title": "Taragui Yerba Mate with stems x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 3.95,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-x-500g",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Playadito",
-      "title": "Yerba Mate Playadito 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 3.95,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-playadito-500g-2/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Taragüi",
-      "title": "Yerba Mate Taragui Roja 500g",
+      "title": "Taragüi Yerba Mate Con Palo 500g",
       "weight": "500g",
       "grams": 500,
       "price": 3.95,
@@ -230,8 +171,63 @@
       "promoDetails": ""
     },
     {
+      "brand": "Playadito",
+      "title": "Playadito Yerba Mate Tradicional 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 3.95,
+      "shop": "Urushop",
+      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-playadito-500g-2/",
+      "isPromo": false,
+      "promoDetails": ""
+    },
+    {
+      "brand": "Unión",
+      "title": "Unión Suave Tradicional con Palo 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 3.95,
+      "shop": "Urushop",
+      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-union-suave-500g/",
+      "isPromo": false,
+      "promoDetails": ""
+    },
+    {
+      "brand": "Taragüi",
+      "title": "Taragüi Tradicional Con Palo 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 3.95,
+      "shop": "Casa Argentina",
+      "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-x-500g-copy",
+      "isPromo": false,
+      "promoDetails": ""
+    },
+    {
+      "brand": "Unión",
+      "title": "Unión Suave Hierbas Serranas 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 3.95,
+      "shop": "Casa Argentina",
+      "url": "https://casaargentina.com/products/yerba-mate-union-suave-hierbas-serranas-500g",
+      "isPromo": false,
+      "promoDetails": ""
+    },
+    {
+      "brand": "Amanda",
+      "title": "Amanda Tradicional Con Palo 1kg",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 7.9,
+      "shop": "Casa Argentina",
+      "url": "https://casaargentina.com/products/amanda-yerba-mate-with-stems-x-1kg",
+      "isPromo": false,
+      "promoDetails": ""
+    },
+    {
       "brand": "Liebig",
-      "title": "Yerba Mate Liebig 500g",
+      "title": "Liebig Original Yerba Mate 500g",
       "weight": "500g",
       "grams": 500,
       "price": 3.99,
@@ -241,41 +237,19 @@
       "promoDetails": ""
     },
     {
-      "brand": "Taragüi",
-      "title": "Yerba Mate Taragui Citricos del Litoral 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 3.99,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-taragui-citricos-del-litoral-500g/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Taragüi",
-      "title": "Yerba Mate Taragui Tropical with Passionfruit 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 3.99,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-taragui-tropical-passionfruit-500g/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Verdeflor",
-      "title": "Yerba Mate Verdeflor Hierbas Serranas 1kg",
+      "brand": "Piporé",
+      "title": "Piporé Tradicional Elaborada 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 7.99,
       "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-verdeflor-hierbas-serranas-1kg/",
+      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-pipore-1kg/",
       "isPromo": false,
       "promoDetails": ""
     },
     {
       "brand": "Rosamonte",
-      "title": "Yerba Mate Rosamonte 1Kg",
+      "title": "Rosamonte Con Palo Tradicional 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 8.5,
@@ -285,8 +259,19 @@
       "promoDetails": ""
     },
     {
+      "brand": "Rosamonte",
+      "title": "Rosamonte Suave Con Palo 1kg",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 8.5,
+      "shop": "Urushop",
+      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-rosamonte-suave-1kg/",
+      "isPromo": false,
+      "promoDetails": ""
+    },
+    {
       "brand": "Nobleza Gaucha",
-      "title": "Nobleza Gaucha Yerba Mate with stems x 1kg",
+      "title": "Nobleza Gaucha Con Palo 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 8.9,
@@ -296,19 +281,8 @@
       "promoDetails": ""
     },
     {
-      "brand": "Amanda",
-      "title": "Yerba Mate Amanda Roja 1Kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 8.99,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-amanda-roja-1kg/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
       "brand": "Rosamonte",
-      "title": "Yerba Mate Rosamonte Especial 1Kg",
+      "title": "Rosamonte Especial Selección Premium 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 8.99,
@@ -318,85 +292,30 @@
       "promoDetails": ""
     },
     {
-      "brand": "Taragüi",
-      "title": "Taragüi con Palo Tradicional 1kg",
+      "brand": "Amanda",
+      "title": "Amanda Roja Tradicional 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 8.99,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/s?k=yerba+mate+taragui+1kg&i=grocery",
-      "isPromo": true,
-      "promoDetails": "Amazon's Choice"
-    },
-    {
-      "brand": "Taragüi",
-      "title": "Yerba Mate Taragui Azul 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 4.5,
       "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-taragui-azul-500g/",
+      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-amanda-roja-1kg/",
       "isPromo": false,
       "promoDetails": ""
     },
     {
-      "brand": "Playadito",
-      "title": "Playadito Yerba Mate NO STEMS - Despalada x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 4.65,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/playadito-yerba-mate-with-stems-x-500kg-copy",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Nobleza Gaucha",
-      "title": "Nobleza Gaucha Yerba Mate with stems x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 4.65,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/nobleza-gaucha-yerba-mate-with-stems-x-500g",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Rosamonte",
-      "title": "Yerba Mate Rosamonte Despalada 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 9.5,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-rosamonte-despalada-1kg/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Amanda",
-      "title": "Yerba Mate Amanda Azul No Stems 1Kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 9.5,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-amanda-azul-no-stems-1kg/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Pajarito",
-      "title": "Yerba Mate Pajarito Especial 500g",
+      "brand": "CBSé",
+      "title": "CBSé Hierbas Serranas 500g",
       "weight": "500g",
       "grams": 500,
       "price": 4.75,
       "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-pajarito-especial-500g/",
+      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-cbse-hierbas-serranas-500g/",
       "isPromo": false,
       "promoDetails": ""
     },
     {
       "brand": "Cruz de Malta",
-      "title": "Cruz de Malta Yerba Mate 1Kg",
+      "title": "Cruz de Malta Tradicional Con Palo 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 9.5,
@@ -417,52 +336,19 @@
       "promoDetails": "Envío gratis"
     },
     {
-      "brand": "Canarias",
-      "title": "Canarias Yerba Mate No stems - Despalada x 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 9.95,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/canarias-yerba-mate-no-stems-despalada-x-500g-copy",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Verdeflor",
-      "title": "Yerba Mate Verdeflor Orange 500g",
+      "brand": "Cruz de Malta",
+      "title": "Cruz de Malta Selección Especial 500g",
       "weight": "500g",
       "grams": 500,
       "price": 4.99,
       "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-verdeflor-orange-500g/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Verdeflor",
-      "title": "Yerba Mate Verdeflor Mint 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 4.99,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-verdeflor-mint-500g/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Rosamonte",
-      "title": "Yerba Mate Rosamonte 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 4.99,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-rosamonte-500g/",
+      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-cruz-de-malta-500g/",
       "isPromo": false,
       "promoDetails": ""
     },
     {
       "brand": "Amanda",
-      "title": "Yerba Mate Amanda Roja 500g",
+      "title": "Amanda Tradicional Premium Roja 500g",
       "weight": "500g",
       "grams": 500,
       "price": 4.99,
@@ -472,90 +358,24 @@
       "promoDetails": ""
     },
     {
+      "brand": "Cruz de Malta",
+      "title": "Cruz de Malta Con Palo 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 4.99,
+      "shop": "Casa Argentina",
+      "url": "https://casaargentina.com/products/cruz-de-malta-yerba-mate-x-500g",
+      "isPromo": false,
+      "promoDetails": ""
+    },
+    {
       "brand": "Canarias",
-      "title": "Canarias Yerba Mate 1Kg",
+      "title": "Canarias Yerba Mate Amarilla 1kg",
       "weight": "1kg",
       "grams": 1000,
       "price": 9.99,
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-canarias-1kg/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Rosamonte",
-      "title": "Rosamonte Suave Tradicional 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 9.99,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/s?k=yerba+mate+rosamonte+1kg&i=grocery",
-      "isPromo": true,
-      "promoDetails": "Amazon's Choice"
-    },
-    {
-      "brand": "CBSé",
-      "title": "CBSE Yerba Mate Hierbas Serranas x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.2,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/cbse-yerba-mate-hierbas-serranas-x-500g",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "CBSé",
-      "title": "CBSE Yerba Mate Hierbas Serranas - Orange x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.2,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/cbse-yerba-mate-hierbas-serranas-orange-x-500g",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "CBSé",
-      "title": "CBSE Yerba Mate Hierbas Serranas - Guarana x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.2,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/cbse-yerba-mate-hierbas-serranas-guarana-x-500g",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Pajarito",
-      "title": "Yerba Mate Pajarito Organic 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.25,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-pajarito-organic-500g/",
-      "isPromo": true,
-      "promoDetails": "Value deal"
-    },
-    {
-      "brand": "Cruz de Malta",
-      "title": "Cruz de Malta Tradicional 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 10.5,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/s?k=yerba+mate+cruz+de+malta+1kg&i=grocery",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "La Merced",
-      "title": "Yerba Mate La Merced Campo Sur 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.45,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/merced-campo-sur/",
       "isPromo": false,
       "promoDetails": ""
     },
@@ -571,83 +391,6 @@
       "promoDetails": "Envío gratis"
     },
     {
-      "brand": "La Merced",
-      "title": "La Merced Yerba Mate with stems CAMPO SUR x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.5,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/la-merced-yerba-mate-with-stems-campo-sur-x-500g",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Nobleza Gaucha",
-      "title": "Yerba Mate Nobleza Gaucha Azul 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.75,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-nobleza-gaucha-azul-500g/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Pajarito",
-      "title": "Yerba Mate Pajarito Mint &#038; Lemon 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.99,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-pajarito-mint-lemon-500g/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Canarias",
-      "title": "Yerba Mate Canarias 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.99,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-canarias-500g/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Taragüi",
-      "title": "Taragüi con Palo Tradicional 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.99,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/s?k=yerba+mate+taragui+500g&i=grocery",
-      "isPromo": true,
-      "promoDetails": "Amazon's Choice"
-    },
-    {
-      "brand": "Rosamonte",
-      "title": "Rosamonte Yerba Mate Suave 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 6.49,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/s?k=yerba+mate+rosamonte+500g&i=grocery",
-      "isPromo": true,
-      "promoDetails": "Amazon's Choice"
-    },
-    {
-      "brand": "Kraus",
-      "title": "Yerba Mate Kraus Organic Pure Leaf 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 6.5,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/yerba-mate/500g/kraus-pure-leaf-organic-500g/",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
       "brand": "Canarias",
       "title": "Canarias Yerba Mate Amarilla 500g",
       "weight": "500g",
@@ -657,28 +400,6 @@
       "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+canarias+500g&LH_BIN=1",
       "isPromo": false,
       "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "Playadito",
-      "title": "Playadito Yerba Mate Tradicional 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 7.5,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/s?k=yerba+mate+playadito+500g&i=grocery",
-      "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "CBSé",
-      "title": "Yerba Mate CBSe Flavour Combo &#8211; Tropical &amp; Valley Fruits (2 x 500g)",
-      "weight": "500g",
-      "grams": 500,
-      "price": 9.5,
-      "shop": "Urushop",
-      "url": "https://urushop.co.uk/shop/uncategorized/yerba-mate-cbse-flavour-combo-tropical-valley-fruits/",
-      "isPromo": false,
-      "promoDetails": ""
     }
   ]
 }
