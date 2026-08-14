@@ -238,3 +238,13 @@
    Si algún día incrustas esto dentro de otra página de arenin.uk que ya
    tenga su propio fondo, borra este bloque. */
 body { background: #121a0e; margin: 0; }
+
+/* --- Selector de idioma --- */
+.ym-hero__side { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+.ym-lang {
+  font: inherit; font-size: 12px; font-weight: 700; cursor: pointer;
+  padding: 6px 14px; border-radius: 999px;
+  background: transparent; color: var(--gourd);
+  border: 1px solid rgba(224,169,95,.45);
+}
+.ym-lang:hover { background: var(--gourd); border-color: var(--gourd); color: #1a2412; }
