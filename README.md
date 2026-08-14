@@ -1,7 +1,6 @@
 # Comparador de precios de yerba mate en UK
 
-Página estática que compara los precios de yerba mate de Urushop, Casa Argentina,
-Amazon y eBay. Los precios se regeneran solos una vez al día con una acción de GitHub.
+Página estática que compara los precios de yerba mate de Urushop, Casa Argentina y eBay. Los precios se regeneran solos una vez al día con una acción de GitHub.
 
 ## Qué hay en cada archivo
 
@@ -11,7 +10,7 @@ Amazon y eBay. Los precios se regeneran solos una vez al día con una acción de
 | `assets/styles.css` | Estilos propios. Todo cuelga de `.ym` para no chocar con el resto de arenin.uk. |
 | `assets/app.js` | Filtros, orden y pintado de la tabla. Lee `data/precios.json`. |
 | `data/precios.json` | **Generado automáticamente.** No lo edites a mano. |
-| `data/manual.json` | Lo que sí editas tú: productos de Amazon/eBay y las tarifas de envío. |
+| `data/manual.json` | Lo que sí editas tú: tarifas de envío y productos sueltos. |
 | `scripts/actualizar-precios.mjs` | El robot que lee las tiendas y reescribe `precios.json`. |
 | `.github/workflows/actualizar-precios.yml` | El cron diario (06:00 UTC). |
 
