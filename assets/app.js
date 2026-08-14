@@ -30,7 +30,7 @@
   var TEXTOS = {
     en: {
       h1: 'Yerba mate prices in the UK',
-      lede: 'Urushop, Casa Argentina, MateMundo and other UK shops, compared by real price per kilo. Updated every day.',
+      lede: 'Prices are updated automatically every day.',
       datos: 'Data',
       filtrar: 'Filter',
       marca_producto: 'Brand or product',
