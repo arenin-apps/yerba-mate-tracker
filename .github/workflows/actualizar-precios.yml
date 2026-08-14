@@ -20,6 +20,10 @@ jobs:
 
       - name: Leer precios de las tiendas
         run: node scripts/actualizar-precios.mjs
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          EBAY_CAMPAIGN_ID: ${{ secrets.EBAY_CAMPAIGN_ID }}
 
       - name: Guardar cambios si los hay
         run: |
