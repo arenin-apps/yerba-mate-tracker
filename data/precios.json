@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-14T12:17:23.546Z",
+  "actualizado": "2026-08-14T15:14:08.841Z",
   "fuentesConError": [
     "MateMundo"
   ],
@@ -34,6 +34,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/rosamonte-yerba-mate-with-stems-x-500g",
       "isPromo": true,
+      "promoKey": "rebajado",
       "promoDetails": "Rebajado"
     },
     {
@@ -45,6 +46,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/playadito-yerba-mate-with-stems-x-1kg",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -56,6 +58,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-orange-x-500g",
       "isPromo": true,
+      "promoKey": "rebajado",
       "promoDetails": "Rebajado"
     },
     {
@@ -67,6 +70,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-citrics-x-500g",
       "isPromo": true,
+      "promoKey": "rebajado",
       "promoDetails": "Rebajado"
     },
     {
@@ -78,6 +82,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-passion-x-500g",
       "isPromo": true,
+      "promoKey": "rebajado",
       "promoDetails": "Rebajado"
     },
     {
@@ -89,6 +94,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-x-1kg",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -100,6 +106,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/mananita-yerba-mate-with-stems-x-1kg",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -111,6 +118,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/union-yerba-mate-suave-x-1kg",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -122,6 +130,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-pajarito-tradicional-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -133,6 +142,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/playadito-yerba-mate-with-stems-x-500kg",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -144,6 +154,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-playadito-1kg-2/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -155,6 +166,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-cbse-hierbas-serranas-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -166,6 +178,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-taragui-roja-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -177,6 +190,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-union-suave-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -188,6 +202,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/skip-to-the-end-of-the-images-gallery-skip-to-the-beginning-of-the-images-gallery-union-yerba-mate-suave-hierbas-serranas-x-500g",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -199,6 +214,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/union-yerba-mate-suave-x-500g",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -210,6 +226,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/taragui-yerba-mate-with-stems-x-500g",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -221,6 +238,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-playadito-500g-2/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -232,6 +250,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-taragui-roja-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -243,6 +262,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-liebig-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -254,6 +274,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-taragui-citricos-del-litoral-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -265,6 +286,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-taragui-tropical-passionfruit-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -276,6 +298,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-verdeflor-hierbas-serranas-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -287,6 +310,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-rosamonte-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -298,6 +322,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/nobleza-gaucha-yerba-mate-with-stems-x-1kg",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -309,6 +334,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-amanda-roja-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -320,6 +346,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-rosamonte-especial-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -331,6 +358,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-taragui-azul-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -342,6 +370,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/playadito-yerba-mate-with-stems-x-500kg-copy",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -353,6 +382,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/nobleza-gaucha-yerba-mate-with-stems-x-500g",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -364,6 +394,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-rosamonte-despalada-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -375,6 +406,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-amanda-azul-no-stems-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -386,6 +418,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-pajarito-especial-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -397,6 +430,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-cruz-de-malta-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -419,6 +453,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/canarias-yerba-mate-no-stems-despalada-x-500g-copy",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -430,6 +465,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-verdeflor-orange-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -441,6 +477,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-verdeflor-mint-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -452,6 +489,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-rosamonte-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -463,6 +501,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-amanda-roja-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -474,6 +513,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-canarias-1kg/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -485,6 +525,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/cbse-yerba-mate-hierbas-serranas-x-500g",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -496,6 +537,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/cbse-yerba-mate-hierbas-serranas-orange-x-500g",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -507,6 +549,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/cbse-yerba-mate-hierbas-serranas-guarana-x-500g",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -518,6 +561,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-pajarito-organic-500g/",
       "isPromo": true,
+      "promoKey": "value_deal",
       "promoDetails": "Value deal"
     },
     {
@@ -529,6 +573,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/merced-campo-sur/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -551,6 +596,7 @@
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/la-merced-yerba-mate-with-stems-campo-sur-x-500g",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -562,6 +608,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-nobleza-gaucha-azul-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -573,6 +620,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-pajarito-mint-lemon-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -584,6 +632,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/yerba-mate-canarias-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -595,6 +644,7 @@
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/kraus-pure-leaf-organic-500g/",
       "isPromo": false,
+      "promoKey": "",
       "promoDetails": ""
     },
     {
