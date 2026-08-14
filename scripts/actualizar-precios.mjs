@@ -120,6 +120,7 @@ async function shopify({ tienda, dominio, coleccion }) {
           shop: tienda,
           url: `https://${dominio}/products/${p.handle}`,
           isPromo: Boolean(rebajado),
+          promoKey: rebajado ? 'rebajado' : '',
           promoDetails: rebajado ? 'Rebajado' : ''
         });
       }
@@ -174,6 +175,7 @@ async function urushop() {
         shop: 'Urushop',
         url: p.permalink,
         isPromo: regular > precio,
+        promoKey: regular > precio ? 'value_deal' : '',
         promoDetails: regular > precio ? 'Value deal' : ''
       });
     }
@@ -342,6 +344,7 @@ async function ebay() {
         shop: 'eBay',
         url: it.itemAffiliateWebUrl || it.itemWebUrl,
         isPromo: false,
+        promoKey: envio > 0 ? 'envio_incluido' : 'envio_gratis',
         promoDetails: envio > 0 ? 'Envío incluido' : 'Envío gratis'
       });
     }
