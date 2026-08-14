@@ -45,6 +45,21 @@ async function pedirJson(url, intentos = 3) {
   throw ultimoError;
 }
 
+// WooCommerce devuelve los títulos con entidades HTML (&#038; en vez de &).
+function decodificar(texto) {
+  return String(texto)
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)))
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&nbsp;/g, ' ')
+    .trim();
+}
+
+// Packs de varias unidades: el precio por kilo saldría mal, así que los dejamos fuera.
+function esMultipack(titulo) {
+  return /\d+\s*x\s*\d+\s*g|pack of \d|combo|bundle|\bset\b/i.test(titulo);
+}
+
 function detectarMarca(titulo) {
   const t = titulo.toLowerCase();
   const encontrada = MARCAS.find(m => t.includes(m.toLowerCase()));
@@ -76,19 +91,21 @@ async function casaArgentina() {
     if (!productos.length) break;
 
     for (const p of productos) {
-      if (!esYerba(p.title)) continue;
+      const titulo = decodificar(p.title);
+      if (!esYerba(titulo) || esMultipack(titulo)) continue;
       for (const v of p.variants || []) {
         if (v.available === false) continue;
-        const nombre = `${p.title} ${v.title || ''}`;
-        const peso = detectarPeso(nombre) || detectarPeso(p.title);
-        const marca = detectarMarca(p.title);
+        const nombre = `${titulo} ${decodificar(v.title || '')}`;
+        if (esMultipack(nombre)) continue;
+        const peso = detectarPeso(nombre) || detectarPeso(titulo);
+        const marca = detectarMarca(titulo);
         const precio = parseFloat(v.price);
         if (!peso || !marca || !Number.isFinite(precio) || precio <= 0) continue;
 
         const rebajado = v.compare_at_price && parseFloat(v.compare_at_price) > precio;
         items.push({
           brand: marca,
-          title: p.title.trim(),
+          title: titulo,
           weight: peso.weight,
           grams: peso.grams,
           price: Number(precio.toFixed(2)),
@@ -112,11 +129,12 @@ async function urushop() {
     if (!Array.isArray(data) || !data.length) break;
 
     for (const p of data) {
-      if (!esYerba(p.name)) continue;
+      const titulo = decodificar(p.name);
+      if (!esYerba(titulo) || esMultipack(titulo)) continue;
       if (p.is_in_stock === false) continue;
 
-      const peso = detectarPeso(p.name);
-      const marca = detectarMarca(p.name);
+      const peso = detectarPeso(titulo);
+      const marca = detectarMarca(titulo);
       if (!peso || !marca) continue;
 
       // La Store API devuelve céntimos: 399 con minor_unit 2 son £3.99.
@@ -127,7 +145,7 @@ async function urushop() {
 
       items.push({
         brand: marca,
-        title: p.name.trim(),
+        title: titulo,
         weight: peso.weight,
         grams: peso.grams,
         price: Number(precio.toFixed(2)),
