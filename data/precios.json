@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-15T11:11:00.920Z",
+  "actualizado": "2026-08-15T11:19:26.848Z",
   "fuentesConError": [
     "MateMundo",
     "eBay"
@@ -435,17 +435,6 @@
       "promoDetails": ""
     },
     {
-      "brand": "Playadito",
-      "title": "Playadito Tradicional con Palo 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 9.5,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+playadito+1kg&LH_BIN=1",
-      "isPromo": false,
-      "promoDetails": "Envío gratis"
-    },
-    {
       "brand": "Canarias",
       "title": "Canarias Yerba Mate No stems - Despalada x 1kg",
       "weight": "1kg",
@@ -578,17 +567,6 @@
       "promoDetails": ""
     },
     {
-      "brand": "Canarias",
-      "title": "Canarias Tradicional Amarilla 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 10.99,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+canarias+1kg&LH_BIN=1",
-      "isPromo": false,
-      "promoDetails": "Envío gratis"
-    },
-    {
       "brand": "La Merced",
       "title": "La Merced Yerba Mate with stems CAMPO SUR x 500g",
       "weight": "500g",
@@ -647,17 +625,6 @@
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
-    },
-    {
-      "brand": "Canarias",
-      "title": "Canarias Yerba Mate Amarilla 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 6.9,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+canarias+500g&LH_BIN=1",
-      "isPromo": false,
-      "promoDetails": "Envío gratis"
     }
   ]
 }
