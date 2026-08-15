@@ -1,5 +1,5 @@
 {
-  "_comentario": "Productos que el robot no puede leer automáticamente. Ahora mismo solo eBay entra por API; si algún día añades Amazon, es aquí. Aquí también van las tarifas de envío.",
+  "_comentario": "Aquí van las tarifas de envío de cada tienda, y cualquier producto suelto que el robot no pueda leer automáticamente. Ahora mismo las cinco tiendas entran solas.",
   "envios": {
     "Urushop": {
       "coste": 3.99,
@@ -20,39 +20,5 @@
       "nota": "Consultar"
     }
   },
-  "items": [
-    {
-      "brand": "Canarias",
-      "title": "Canarias Yerba Mate Amarilla 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 6.9,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+canarias+500g&LH_BIN=1",
-      "isPromo": false,
-      "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "Playadito",
-      "title": "Playadito Tradicional con Palo 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 9.5,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+playadito+1kg&LH_BIN=1",
-      "isPromo": false,
-      "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "Canarias",
-      "title": "Canarias Tradicional Amarilla 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 10.99,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=yerba+mate+canarias+1kg&LH_BIN=1",
-      "isPromo": false,
-      "promoDetails": "Envío gratis"
-    }
-  ]
+  "items": []
 }
