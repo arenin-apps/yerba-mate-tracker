@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-17T06:52:38.288Z",
+  "actualizado": "2026-08-18T06:40:25.458Z",
   "fuentesConError": [
     "MateMundo",
     "eBay"
@@ -514,18 +514,6 @@
       "price": 5.2,
       "shop": "Casa Argentina",
       "url": "https://casaargentina.com/products/cbse-yerba-mate-hierbas-serranas-x-500g",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
-      "brand": "CBSé",
-      "title": "CBSE Yerba Mate Hierbas Serranas - Orange x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.2,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/cbse-yerba-mate-hierbas-serranas-orange-x-500g",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
