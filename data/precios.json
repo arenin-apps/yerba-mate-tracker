@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-04T10:38:34.660Z",
+  "actualizado": "2026-09-05T09:59:20.477Z",
   "fuentesConError": [
     "MateMundo",
     "eBay"
@@ -49,6 +49,18 @@
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
+    },
+    {
+      "brand": "Unión",
+      "title": "Union Yerba Mate Suave Hierbas Serranas x 500g BBE: 31.12.2026",
+      "weight": "500g",
+      "grams": 500,
+      "price": 3.25,
+      "shop": "Casa Argentina",
+      "url": "https://casaargentina.com/products/skip-to-the-end-of-the-images-gallery-skip-to-the-beginning-of-the-images-gallery-union-yerba-mate-suave-hierbas-serranas-x-500g",
+      "isPromo": true,
+      "promoKey": "rebajado",
+      "promoDetails": "Rebajado"
     },
     {
       "brand": "Taragüi",
@@ -190,18 +202,6 @@
       "price": 7.5,
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-union-suave-1kg/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
-      "brand": "Unión",
-      "title": "Union Yerba Mate Suave Hierbas Serranas x 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 3.95,
-      "shop": "Casa Argentina",
-      "url": "https://casaargentina.com/products/skip-to-the-end-of-the-images-gallery-skip-to-the-beginning-of-the-images-gallery-union-yerba-mate-suave-hierbas-serranas-x-500g",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
