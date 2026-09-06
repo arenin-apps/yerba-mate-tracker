@@ -352,6 +352,65 @@ async function ebay() {
   return items;
 }
 
+/* --- Amazon UK (SerpApi) -----------------------------------------------
+   Amazon bloquea el scraping directo (403/CAPTCHA incluso vía proxy de
+   renderizado), así que en vez de leerla nosotros usamos SerpApi
+   (serpapi.com), que hace de intermediario y entrega los resultados de
+   búsqueda ya en JSON. Necesita el secreto SERPAPI_KEY en GitHub. Si no
+   está puesto, esta parte se salta sin romper nada — igual que eBay sin
+   credenciales. Con 2 búsquedas por día el uso mensual queda muy por
+   debajo del límite gratuito de SerpApi (250/mes). */
+
+async function amazon() {
+  const apiKey = process.env.SERPAPI_KEY;
+  if (!apiKey) {
+    console.log('Amazon: sin SERPAPI_KEY, se omite.');
+    return [];
+  }
+
+  const items = [];
+  const vistos = new Set();
+
+  for (const consulta of ['yerba mate 500g', 'yerba mate 1kg']) {
+    const url = 'https://serpapi.com/search.json'
+      + '?engine=amazon&amazon_domain=amazon.co.uk'
+      + `&k=${encodeURIComponent(consulta)}`
+      + `&api_key=${apiKey}`;
+
+    const data = await pedirJson(url);
+    if (data.error) throw new Error(`SerpApi: ${data.error}`);
+
+    for (const r of data.organic_results || []) {
+      const titulo = decodificar(r.title || '');
+      if (!esYerba(titulo) || esMultipack(titulo)) continue;
+
+      const peso = detectarPeso(titulo);
+      const marca = detectarMarca(titulo);
+      const precio = Number(r.extracted_price);
+      if (!peso || !marca || !Number.isFinite(precio) || precio <= 0) continue;
+
+      const enlace = r.link_clean || r.link;
+      if (!enlace || vistos.has(enlace)) continue;
+      vistos.add(enlace);
+
+      const rebajado = Number.isFinite(r.extracted_old_price) && r.extracted_old_price > precio;
+      items.push({
+        brand: marca,
+        title: titulo,
+        weight: peso.weight,
+        grams: peso.grams,
+        price: Number(precio.toFixed(2)),
+        shop: 'Amazon',
+        url: enlace,
+        isPromo: Boolean(rebajado),
+        promoKey: rebajado ? 'rebajado' : '',
+        promoDetails: rebajado ? 'Rebajado' : ''
+      });
+    }
+  }
+  return items;
+}
+
 /* --- Montaje final ---------------------------------------------------- */
 
 function deduplicar(items) {
@@ -374,7 +433,8 @@ async function main() {
     ['Urushop', urushop],
     ['Argentina Premium', argentinaPremium],
     ['MateMundo', mateMundo],
-    ['eBay', ebay]
+    ['eBay', ebay],
+    ['Amazon', amazon]
   ];
 
   for (const [nombre, fn] of FUENTES) {
