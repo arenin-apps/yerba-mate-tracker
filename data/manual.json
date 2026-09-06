@@ -1,5 +1,5 @@
 {
-  "_comentario": "Aquí van las tarifas de envío de cada tienda, y cualquier producto suelto que el robot no pueda leer automáticamente. Ahora mismo las cinco tiendas entran solas.",
+  "_comentario": "Aquí van las tarifas de envío de cada tienda, y cualquier producto suelto que el robot no pueda leer automáticamente. Ahora mismo las seis tiendas entran solas.",
   "envios": {
     "Urushop": {
       "coste": 3.99,
@@ -18,6 +18,9 @@
     },
     "Argentina Premium": {
       "nota": "Consultar"
+    },
+    "Amazon": {
+      "nota": "Gratis con Prime o desde £35"
     }
   },
   "items": []
