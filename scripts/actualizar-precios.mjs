@@ -19,7 +19,12 @@ const MANUAL = join(RAIZ, 'data', 'manual.json');
 const MARCAS = [
   'Playadito', 'Taragüi', 'Taragui', 'Rosamonte', 'Cruz de Malta', 'Canarias',
   'Amanda', 'Unión', 'Union', 'CBSé', 'CBSe', 'Piporé', 'Pipore', 'Pajarito',
-  'Nobleza Gaucha', 'Liebig', 'Mañanita', 'La Merced', 'Kraus', 'Verdeflor'
+  'Nobleza Gaucha', 'Liebig', 'Mañanita', 'La Merced', 'Kraus', 'Verdeflor',
+  // Estas últimas son marcas polacas de yerba mate, muy vendidas en UK
+  // (MateMundo las tiene casi en exclusiva) — no son argentinas, pero son
+  // yerba mate real y el comparador es de precios en UK, no solo de
+  // marcas argentinas.
+  'El Fuego', 'Verde Mate', 'Yaguar', 'Guarani', 'Rio Parana', 'Soul Mate'
 ];
 
 const UA = 'yerba-tracker/1.0 (+https://arenin.uk)';
@@ -74,11 +79,15 @@ function detectarPeso(titulo) {
   return null;
 }
 
+// Fuera accesorios y termos, que también llevan "mate" en el nombre.
+function esAccesorio(titulo) {
+  return /(bombilla|gourd|calabaza|термо|thermos|termo|cup|set|kit|straw|matera)/i.test(titulo.toLowerCase());
+}
+
 function esYerba(titulo) {
   const t = titulo.toLowerCase();
   if (!t.includes('yerba') && !t.includes('mate')) return false;
-  // Fuera accesorios y termos, que también llevan "mate" en el nombre.
-  return !/(bombilla|gourd|calabaza|термо|thermos|termo|cup|set|kit|straw|matera)/i.test(t);
+  return !esAccesorio(titulo);
 }
 
 /* --- Tiendas Shopify (Casa Argentina, Argentina Premium) ---------------
@@ -185,29 +194,36 @@ async function urushop() {
 
 
 /* --- MateMundo (IdoSell) ----------------------------------------------
-   Esta tienda no publica un JSON de catálogo, así que leemos el marcado
-   schema.org que incrusta en las páginas de categoría. Es la fuente más
-   frágil del proyecto: si rediseñan la web, dejará de encontrar productos
-   y aparecerá en "fuentesConError" sin romper el resto. */
+   Esta tienda no publica un JSON de catálogo. Hasta septiembre 2026 leíamos
+   el marcado schema.org (@type: Product) que traían las páginas de
+   categoría, pero lo sacaron en un rediseño — la web sigue funcionando
+   igual para un visitante, pero el HTML ya no trae esos bloques.
+   Los datos siguen ahí, solo que en HTML plano de toda la vida (server-side,
+   no hace falta ejecutar JS): cada producto es un <div class="product"
+   data-product_id="...">, con el nombre en <a class="product__name"> y el
+   precio en <strong class="price --main">. Es la fuente más frágil del
+   proyecto: si vuelven a rediseñar, dejará de encontrar productos y
+   aparecerá en "fuentesConError" sin romper el resto. */
 
 const MATEMUNDO_PAGINAS = [
   'https://www.matemundo.co.uk/eng_n_Categories_Yerba-Mate_Yerba-mate-A-Z-7340.html',
   'https://www.matemundo.co.uk/eng_m_Categories_Yerba-Mate-7337.html'
 ];
 
-function extraerProductosLdJson(html) {
+function extraerProductosHtml(html) {
   const encontrados = [];
-  const bloques = html.matchAll(/<script[^>]+application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi);
+  const trozos = html.split(/(?=<div class="product" data-product_id="\d+")/);
 
-  const recorrer = (nodo) => {
-    if (!nodo || typeof nodo !== 'object') return;
-    if (Array.isArray(nodo)) return nodo.forEach(recorrer);
-    if (nodo['@type'] === 'Product' && nodo.name) encontrados.push(nodo);
-    Object.values(nodo).forEach(recorrer);
-  };
+  for (const trozo of trozos.slice(1)) {
+    const nombre = trozo.match(/class="product__name"[^>]*href="([^"]+)"[^>]*title="([^"]+)"/);
+    const precio = trozo.match(/class="price --main">£([\d.,]+)/);
+    if (!nombre || !precio) continue;
 
-  for (const b of bloques) {
-    try { recorrer(JSON.parse(b[1].trim())); } catch { /* bloque no válido, seguimos */ }
+    encontrados.push({
+      name: nombre[2],
+      url: nombre[1],
+      price: parseFloat(precio[1].replace(',', ''))
+    });
   }
   return encontrados;
 }
@@ -226,29 +242,33 @@ async function mateMundo() {
   const vistos = new Set();
 
   for (const pagina of MATEMUNDO_PAGINAS) {
-    for (let n = 1; n <= 6; n++) {
-      const url = n === 1 ? pagina : `${pagina}?counter=${n}`;
+    for (let n = 0; n <= 9; n++) {
+      const url = n === 0 ? pagina : `${pagina}?counter=${n}`;
       let html;
       try { html = await pedirHtml(url); } catch { break; }
 
-      const productos = extraerProductosLdJson(html);
+      const productos = extraerProductosHtml(html);
       if (!productos.length) break;
 
       let nuevos = 0;
       for (const p of productos) {
         const titulo = decodificar(p.name);
-        if (!esYerba(titulo) || esMultipack(titulo)) continue;
+        // A diferencia de las otras tiendas, acá no exigimos que el
+        // título diga "yerba"/"mate": estas páginas SON la categoría de
+        // yerba mate del sitio, y los productos vienen listados solo
+        // como "Marca Variante Peso" (ej. "Cruz de Malta 0.5kg"), sin
+        // repetir el nombre de la categoría. La marca conocida + el peso
+        // detectado ya alcanzan como filtro de relevancia acá.
+        if (esAccesorio(titulo) || esMultipack(titulo)) continue;
 
         const peso = detectarPeso(titulo);
         const marca = detectarMarca(titulo);
         if (!peso || !marca) continue;
 
-        const oferta = Array.isArray(p.offers) ? p.offers[0] : p.offers;
-        const precio = parseFloat(oferta?.price);
+        const precio = p.price;
         if (!Number.isFinite(precio) || precio <= 0) continue;
-        if (oferta?.priceCurrency && oferta.priceCurrency !== 'GBP') continue;
 
-        const enlace = oferta?.url || p.url;
+        const enlace = p.url;
         if (!enlace || vistos.has(enlace)) continue;
         vistos.add(enlace);
         nuevos++;
