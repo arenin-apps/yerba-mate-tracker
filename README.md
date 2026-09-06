@@ -1,6 +1,6 @@
 # Comparador de precios de yerba mate en UK
 
-Página estática que compara los precios de yerba mate de Urushop, Casa Argentina y eBay. Los precios se regeneran solos una vez al día con una acción de GitHub.
+Página estática que compara los precios de yerba mate de Urushop, Casa Argentina, Argentina Premium, MateMundo, eBay y Amazon. Los precios se regeneran solos una vez al día con una acción de GitHub.
 
 ## Qué hay en cada archivo
 
@@ -50,6 +50,14 @@ Aquí GitHub solo sirve para generar el JSON; la página la sirve tu WordPress.
 3. Cambia en `app.js` la constante `DATA_URL` a la URL pública del JSON, por ejemplo:
    `https://raw.githubusercontent.com/<usuario>/<repo>/main/data/precios.json`
    (o mejor, la de GitHub Pages, que tiene CDN: `https://<usuario>.github.io/<repo>/data/precios.json`).
+
+## Secretos necesarios (Settings → Secrets and variables → Actions)
+
+| Secreto | Para qué | Si falta |
+|---|---|---|
+| `EBAY_CLIENT_ID`, `EBAY_CLIENT_SECRET` | API de eBay (cuenta de desarrollador) | Se omite eBay |
+| `EBAY_CAMPAIGN_ID` | Opcional, solo si estás en eBay Partner Network | — |
+| `SERPAPI_KEY` | [serpapi.com](https://serpapi.com) — Amazon bloquea el scraping directo, así que sus resultados se leen a través de SerpApi. El free tier (250 búsquedas/mes) sobra: el robot hace 2 al día | Se omite Amazon |
 
 ## Ajustes que querrás tocar
 
