@@ -2,7 +2,15 @@ name: Actualizar precios
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # todos los días a las 06:00 UTC (07:00 en Londres en verano)
+    # GitHub Actions retrasa bastante los cron en cuentas gratuitas — en la
+    # práctica este workflow arrancaba 3-4 horas tarde (comprobado: con
+    # '0 6 * * *' terminaba corriendo recién entre las 10 y las 11:40, hora
+    # de Londres, nunca cerca de las 07:00). Para que esté listo a las 8am
+    # hora UK, lo disparamos bastante antes para absorber ese retraso.
+    # 02:00 UTC = 03:00 en Londres en horario de verano (BST). Ajustar a
+    # 01:00 UTC cuando vuelva el horario de invierno (GMT) en octubre, para
+    # seguir siendo las 02:00 hora local y mantener el mismo colchón.
+    - cron: '0 2 * * *'
   workflow_dispatch:       # botón para lanzarlo a mano desde la pestaña Actions
 
 permissions:
