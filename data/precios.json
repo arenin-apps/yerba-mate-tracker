@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-13T07:16:17.919Z",
+  "actualizado": "2026-09-14T07:40:40.671Z",
   "fuentesConError": [],
   "afiliados": false,
   "envios": {
@@ -438,7 +438,7 @@
       "grams": 1000,
       "price": 8.83,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/267773729597?_skw=yerba+mate+1kg&hash=item3e588edb3d:g:NDYAAeSwWhdql3zD",
+      "url": "https://www.ebay.co.uk/itm/267784593939?_skw=yerba+mate+1kg&hash=item3e5934a213:g:NDYAAeSwWhdql3zD",
       "isPromo": false,
       "promoKey": "envio_incluido",
       "promoDetails": "Envío incluido"
@@ -596,6 +596,18 @@
       "isPromo": true,
       "promoKey": "rebajado",
       "promoDetails": "Rebajado"
+    },
+    {
+      "brand": "Amanda",
+      "title": "Amanda Yerba Mate Tea Special Selection 1 kg | Yerba Mate Argentina |Detox and energy drink",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 9.7,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Amanda-Special-Selection-Argentina-energy/dp/B09LRF2JQH/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
     },
     {
       "brand": "Cruz de Malta",
@@ -865,7 +877,7 @@
       "grams": 1000,
       "price": 10.34,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/287534031511?_skw=yerba+mate+1kg&hash=item42f25d2297:g:cNYAAeSwOUVqL-8U&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGb9eQdoWM4dZPONwlc%2FnwCNQoWhMepcCTWaypd%2Fqwa%2FULd9lKF8dB7eaPCtsYix1N%2FbuveKNvyyW0fnCVszXvKpclNcrw9e%2FUyLZ8IiBMuLBaCCIMIfeW9gK1K6Amqh0g4Dex1HZBIeSCZJELaCaBIFGg5%2F4kQO5e6UmW3rvy%2FvwoxEMiHdAyrcxrXxu89KvGO7zz4KHbTW%2FXtZRbnK8szUkD8ibBt5Fs6Ho8k2P5UvEkLQG6wSpvxK8u5kUc2Gv00CaHXFzBJ1xdZD9LJtbJAjm0z0mRThWFn7WD5NYFVMSA%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/287534031511?_skw=yerba+mate+1kg&hash=item42f25d2297:g:cNYAAeSwOUVqL-8U",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1122,7 +1134,7 @@
       "grams": 1000,
       "price": 11.57,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/231995246711?_skw=yerba+mate+1kg&hash=item3603fe8877:g:XLgAAOxyyUtSbY8Y&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbLnw66QZD%2B3NIi6uXigQ9vJSnJ7pqsDI8QX5Kb%2BXig5SiOpFEbmDUowAw7IbysRVqj5ziuhVQzxv7xJjmk3HzKiWbmsM3w27%2FYBMeQT0rXzdbCZ9ic9W1f31%2F85L1sIBri9c7Mr6tD8ZIdejX7faiJ%2FmcBfo6dbkCLBinAelgtWPj0Y6IJaN%2BYKVnDLmZqyATX4nYmZ02E%2BPAvr5pUoG6XtpF%2BpHLHLBCGvB98ApRcBnyZzVYQWjxDfQdXWZPvQTB%2FSW0uWaxulr%2BXzzS78ldntXhAIzcHnTxZ6jV5XJAT%2Bg%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/231995246711?_skw=yerba+mate+1kg&hash=item3603fe8877:g:XLgAAOxyyUtSbY8Y&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbLnw66QZD%2B3NIi6uXigQ9vJSnJ7pqsDI8QX5Kb%2BXig5SiOpFEbmDUowAw7IbysRVqj5ziuhVQzxv7xJjmk3HzKiWbmsM3w27%2FYBMeQT0rXzdbCZ9ic9W1f31%2F85L1sIBprAzaro3D0kNOL%2BPlqsHefKXH29NBrZUikTVXr2xmIpky0C0anGvkVVxTVpzQuoQBz6eyP%2FpTiBUfGgwIQ2ZsR0ULwQjnzdAgB1atZPi9S3iHYLYjVUB4DY6AcqBbqhTmqEOAvmh6Y0CIHR6KeID%2FTVWQYTNPFfxsRSQpIJ4JNWQ%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1134,7 +1146,7 @@
       "grams": 1000,
       "price": 11.57,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/232247338562?_skw=yerba+mate+1kg&hash=item3613052642:g:rsIAAOSwtfhYq2x2&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYrPq4HqB2LXk8PGCAM%2BuH3zk9NtKhsguB2B8czFMv005TuzmBBKWVDoyWszsZGzGCjKY10p00N5UQC%2BJsnD4U8EmPb%2FlCOjSIKPGykjx040hi6w6XGxSwtMl1wozY2UyhB%2BLlq7iJGqNXbrGFA6a6xZ54aYKfeX2m8RgZM2V9qqkT6uzL19bPRrPxuKzrgT4CfcCpS6y1A4l8AUJQZoaYUhwq72CREupZ6lA8N%2F4qtFpBYEZ9QdZM8uCi1kQj%2FZMmMy4i%2BHZ7ILhzV7SkugIsfvJSvyL1mQoTLPVM53YU4aA%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/232247338562?_skw=yerba+mate+1kg&hash=item3613052642:g:rsIAAOSwtfhYq2x2&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYrPq4HqB2LXk8PGCAM%2BuH3zk9NtKhsguB2B8czFMv005TuzmBBKWVDoyWszsZGzGCjKY10p00N5UQC%2BJsnD4U8EmPb%2FlCOjSIKPGykjx040hi6w6XGxSwtMl1wozY2UyiFWXBmfAQTeM0iKGr5JowmSzFHfzCY47s6CxhpfvitIFzGFiTaX6sw9m%2Fs%2BMrx8I1DErB46TVucVeVfCBNU0hMwdf68Ha2xklJuDNyKOaznM%2BkJFLzxre%2FMnk3bEzZxNVlcR9PcGbpLDctkaSm5GpP6jbT0SVrlfM8v2osD8l8sw%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1364,18 +1376,6 @@
       "promoDetails": ""
     },
     {
-      "brand": "Taragüi",
-      "title": "Yerba Mate Taragui Azul 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.99,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-Taragui-Azul-500g/dp/B004HVP738/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
       "brand": "Amanda",
       "title": "Yerba Mate Amanda Roja 500g",
       "weight": "500g",
@@ -1383,6 +1383,18 @@
       "price": 5.99,
       "shop": "Amazon",
       "url": "https://www.amazon.co.uk/Yerba-Mate-Amanda-Roja-500g/dp/B006F31P28/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
+      "brand": "Taragüi",
+      "title": "Yerba Mate Taragui Azul 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 5.99,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Yerba-Mate-Taragui-Azul-500g/dp/B004HVP738/",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
@@ -1430,7 +1442,7 @@
       "grams": 1000,
       "price": 11.99,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/370665344490?_skw=yerba+mate+1kg&hash=item564d604dea:g:CZ4AAOSwzqpgo8DP",
+      "url": "https://www.ebay.co.uk/itm/370665344490?_skw=yerba+mate+1kg&hash=item564d604dea:g:CZ4AAOSwzqpgo8DP&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbKsWpedfNNQr7QvDm%2FrAVvvreNiZwqEJWHdnjdhOqekJQ%2FJOZ5TQuZCkivjBnfgZiI09NHpiWptZKN1vdhc8H6li73a53OANmg%2BpNyLlOF9kO8JBiaSuyeiqiXb%2Bk3Xm%2BcigUYz%2FJR2Gad%2Bev5cvPQ%2FzB9ru2e1IItQJGW0DLBfmw1o1Qm9OYqNCVNnj7oO3kNQUrkBRBGNiG%2F7CoHaIQehlmH7%2BG8odqjcM2kTHMjFZRrTH2oifvK5jbUJdx0WXalcYsavIK1%2FoFLjHKYj7oRBYcR1D0YDJ07o%2FKsfqCcmg%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1561,7 +1573,7 @@
       "grams": 1000,
       "price": 12.75,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/371892652249?_skw=yerba+mate+1kg&hash=item56968788d9:g:zGEAAOSwhwdVUgO1&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaypS4BEWJ%2FZtLPK7rEwnN%2BE6n6N9Tk1pU66zvL9%2FIwylGwFikyPXdbK72HPTejope8o103%2FlRHum1s2PlTw1Iz8txEdumo%2FEXwhaWMLmgEHK0tH9VMYO%2BJCKykMhHehftRm11LYhd9nGN%2BFEXorsjSyuk9tHmkhCwqGMfieYzkY6gCzQRPegSgN2tkvqGml9CtwBZsdLUFkcskQzVes6sk1D3PZwmsw37jHCZIryBfnPfbqqnTNJ3KUhcPPDHLomMusSlCAawZ8LcDEIBPNnnsINIdqhlrCJa%2FaFoeJYfZkA%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/371892652249?_skw=yerba+mate+1kg&hash=item56968788d9:g:zGEAAOSwhwdVUgO1&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaypS4BEWJ%2FZtLPK7rEwnN%2BE6n6N9Tk1pU66zvL9%2FIwylGwFikyPXdbK72HPTejope8o103%2FlRHum1s2PlTw1Iz8txEdumo%2FEXwhaWMLmgEHK0tH9VMYO%2BJCKykMhHehftdHs98DfkyzMKyd3fPj6fhyg4wVzOKm%2FejL%2BfVKwIHSHhhB5BqQeuHYG974VSXaBAqSgEJUKAZdzAaSp8e70RouAsJMnJcD6C5mXa5j9I406yEivMBUXZlxaAxw5JPdMJzJ1uXe%2F7BbRuwS%2Fa13AW2zAk%2BlVGunTbbd0Hd7bIW%2Bg%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1585,7 +1597,7 @@
       "grams": 1000,
       "price": 12.99,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/372943493009?_skw=yerba+mate+1kg&hash=item56d52a1791:g:6ocAAOSwT9NePCYN&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZL%2FuBbawXmwdjZ%2FL4wx6cUtOv1JXbGCMM%2BNWKm4GH8I98XEAChMLWup8tR0OQI%2B45NbTTwj%2B%2F5EBfBv26DjD%2B42Cpi2WZIOYNkXUVjA37lapUL%2FP6EDCORO1qy6vcZTrI%2Fsos71YKR%2FsDikMHreM288BUrgblvp9kngxiKANcfq2mZsPzTKUaAtEfyTmDpC5Xln5HI7WM%2FehEjeh1jQ6i1qzR1ryYrbOR%2FVxgNsovBGbwF1Zd%2F%2BnLfV458ze%2Fwl969XCWZBtE8TL1G28HHHKUA6mab%2BRI%2FILQeETeFchqYhQ%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/372943493009?_skw=yerba+mate+1kg&hash=item56d52a1791:g:6ocAAOSwT9NePCYN&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZL%2FuBbawXmwdjZ%2FL4wx6cUtOv1JXbGCMM%2BNWKm4GH8I98XEAChMLWup8tR0OQI%2B45NbTTwj%2B%2F5EBfBv26DjD%2B42Cpi2WZIOYNkXUVjA37lapUL%2FP6EDCORO1qy6vcZTrIUaFuOSB7CH%2BWRbn69TQ3e1HNtTndWQJTtrMSx1o0Ziq7Fd2aamRiBub1BadFJxvAiYvFKb5NUGpiWKGfkVicmWznG90u5Kt4s7S1hchrH%2F0Jp%2BrQjYSaMu%2FW8G0PU%2FMM9gwEyT6VyWJle4dlqAqEKWwIKuK7XIIy1sllXKe%2B%2FRA%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1632,7 +1644,7 @@
       "grams": 1000,
       "price": 13.9,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/231272724213?_skw=yerba+mate+1kg&hash=item35d8edb6f5:g:EogAAOxywXFSbY8o&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbuJC5rC3vGlBqnY6KWwcSzj9eIHVEtkJc%2FiB43IrpYL8tWbaS1r9xYEuBpFqojFXyaLmZm%2BtqViTeAmql0vWZu5su61WgeFeI5oT0XOdPBgrVVSrb0BRZR63Tnx6%2FzbnOmOnoJquIcDf%2FDOPJiVX6P%2FmAPerTujli1yh1N%2FldXznlF2y4vRh9JM18fnmcn%2BFSYDu%2FHAjDBm2sLDhh9t0c737hXc6zY%2F22ZEtsmNHjTHBn8uxmEeNee3E3pSDoxflZTqf6qXevb69y3OI7u4E5lMY4xZcBzwhwAB25i26TJqw%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/231272724213?_skw=yerba+mate+1kg&hash=item35d8edb6f5:g:EogAAOxywXFSbY8o&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbuJC5rC3vGlBqnY6KWwcSzj9eIHVEtkJc%2FiB43IrpYL8tWbaS1r9xYEuBpFqojFXyaLmZm%2BtqViTeAmql0vWZu5su61WgeFeI5oT0XOdPBgrVVSrb0BRZR63Tnx6%2FzbnOcOsf0XVMtpxirquCx8HRl5%2Fnx7DLrjIfOqI8XQr5FwPp8ZgpouwgpJVMyTiYyUpOW%2FJwEKx91T14BiYcFX1CjcsZ5AE%2BNHrNsdZArd5%2B8ASVLeH0KT8557yVoIk73n%2BAX3eyLHA1ykgWb%2BdeePZZY7fBeVTh6pMHUtLFS1hySEQ%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1656,7 +1668,7 @@
       "grams": 1000,
       "price": 14.18,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/231308486845?_skw=yerba+mate+1kg&hash=item35db0f68bd:g:Zl4AAOxyDEVSbZNT&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZHU4ecFLJbnPPjbMLDcBym5kBn2QXQS1CguPPhJzGnUPOtDlCj%2FyUtAgaaAFjmm%2FBbU3XcO7QWnRMl9B%2B749ZAgrSFqqLJubQIx10Tsas10CZfdCVt%2FCL8ad5A%2FAS1cRo3DSVxyM9mOoarJWr16%2B%2FAGKnWT%2Bxdp6AmK%2FkCpbGqOEb3y7ZDAaD%2FgPWQzHKUtNvP3ATj6pg2HxLgtMRIBwy8x1z5pU4K4ukVYVgp9Q6oK3kKpXVX2FhJEExOxxnZFW%2F2rYWjSDFo71aAOOH8UeR08p1m05pj7dyU7j3W9HTwdg%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/231308486845?_skw=yerba+mate+1kg&hash=item35db0f68bd:g:Zl4AAOxyDEVSbZNT&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZHU4ecFLJbnPPjbMLDcBym5kBn2QXQS1CguPPhJzGnUPOtDlCj%2FyUtAgaaAFjmm%2FBbU3XcO7QWnRMl9B%2B749ZAgrSFqqLJubQIx10Tsas10CZfdCVt%2FCL8ad5A%2FAS1cRobNJCgiglDJzqEWGSIWGNxtC38wG1lZ%2FjrJ9nVF9XAXhp29VTuksi4qiYY6P98p8odEEsBk%2BRCHFkB77TgVNyCPAd1%2F0zkBKGlxRnQ%2BPeuS4CnuPHbM1BXy2hOoSpCMCySOkGOvW7N4Pi1fYAkQLzKoLStgtPUoKU4DNwoHAIVJg%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1710,6 +1722,18 @@
       "promoDetails": ""
     },
     {
+      "brand": "CBSé",
+      "title": "Yerba Mate CBSe Valley Fruits 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 7.98,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Yerba-Mate-CBSe-Valley-Fruits/dp/B00YH3MG5S/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
       "brand": "Verde Mate",
       "title": "Yerba Mate Green Verde Mate Guarani Energy Organica Detox Mas IQ 500g Booster",
       "weight": "500g",
@@ -1747,36 +1771,12 @@
     },
     {
       "brand": "CBSé",
-      "title": "Yerba Mate CBSe Tropical Fruits 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 7.99,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-CBSe-Tropical-Fruits/dp/B00YH3GE6U/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
-      "brand": "CBSé",
       "title": "Yerba Mate CBSe Forest Fruits 500g",
       "weight": "500g",
       "grams": 500,
       "price": 7.99,
       "shop": "Amazon",
       "url": "https://www.amazon.co.uk/Yerba-Mate-CBSe-Forest-Fruits/dp/B00YH3US4E/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
-      "brand": "Rosamonte",
-      "title": "Rosamonte Yerba Mate Tea Traditional 500g - Maturation time is 12 months | Detox and energy drink | Detox and energy drink",
-      "weight": "500g",
-      "grams": 500,
-      "price": 7.99,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/%F0%9F%8C%BFRosamonte-Yerba-Mate-Traditional-500g/dp/B094JS46QG/",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
@@ -1794,13 +1794,25 @@
       "promoDetails": ""
     },
     {
-      "brand": "CBSé",
-      "title": "Yerba Mate CBSe Valley Fruits 500g",
+      "brand": "Rosamonte",
+      "title": "Rosamonte Yerba Mate Tea Traditional 500g - Maturation time is 12 months | Detox and energy drink | Detox and energy drink",
       "weight": "500g",
       "grams": 500,
       "price": 7.99,
       "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-CBSe-Valley-Fruits/dp/B00YH3MG5S/",
+      "url": "https://www.amazon.co.uk/%F0%9F%8C%BFRosamonte-Yerba-Mate-Traditional-500g/dp/B094JS46QG/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
+      "brand": "CBSé",
+      "title": "Yerba Mate CBSe Tropical Fruits 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 7.99,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Yerba-Mate-CBSe-Tropical-Fruits/dp/B00YH3GE6U/",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
@@ -1824,7 +1836,7 @@
       "grams": 1000,
       "price": 16.17,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/233487311004?_skw=yerba+mate+1kg&hash=item365ceda09c:g:a9wAAOSw4tVePCJZ&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbcvv2b%2Bc0IXJ3IAS7reoIAZSI6ouQq9xN0YWMxXWWkYQfnpeEJmmEW95Wgq0EgO4bBqQbkb%2FQblPB%2FTNauYP%2BtztCBAkM9bozLezMP6N5jrcs66U%2FpsAB28P6fkzbwLq1o4N1edNFfOWS8xL%2BuaBNnDA1YUWwjD0NCHua97XZuvnOyhWPhL8Oq26KIvCCTKk8TXOOaABCvuQ1aXpXwWBPkJVzYyp1z5GtO22AQtIpGHo7BTlQOifyXor7hdL%2FTdTN3ztfQnVBTWeeyoKDlvV5uDKGyjHZfpLU27eQYQDVZtA%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/233487311004?_skw=yerba+mate+1kg&hash=item365ceda09c:g:a9wAAOSw4tVePCJZ",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1836,7 +1848,7 @@
       "grams": 500,
       "price": 8.12,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/372943492960?_skw=yerba+mate+500g&hash=item56d52a1760:g:7fAAAOSwYBpePMCl&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYg6R%2Bg1M2Z4xQqsbYatWcyl4FtwYIA1Mvpx2gB8QzPFNfx4LbZfxivhxjblRk5XiZFx%2BYOQC5s8G5ENw4zgfiNODE1mocjTHP5gwCtOr0Dcc2euwZxa4lLFXaKFXRLVR34NmvB8opWiRsrlqvefQMY1u0qtANPETc0uGga5Sf3fPYcvfvSLP166nu7L5sOthqUOKoW7Yg%2BuhXmWVIL3EJDHUEYq1AhmVVJ0kPBFKzN%2B4U9VKkuu9tje1pVR9M8IImDUbsLG7NsCite96cK%2ByzFUImjgmnL6gaRtKN7ZUEiRg%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/372943492960?_skw=yerba+mate+500g&hash=item56d52a1760:g:7fAAAOSwYBpePMCl",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1860,7 +1872,7 @@
       "grams": 500,
       "price": 8.5,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/233487317945?_skw=yerba+mate+500g&hash=item365cedbbb9:g:89oAAOSwLNtgplLR&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbeMXn4%2FYHG2vcyJmi05YaaiwIXonLNq6WxGBYWg7--3BvYzvRhspsqBVjvWAp1x%2BiaTq1taPoiLilra4i8MQFwYTZ6fqZpLne00qIKqZGnp1MIm3WVbr7cAjPa2WMGjwIYgrNYVhlM%2BWFaB%2BigUbip5wok2c3A31Qi%2F7SWhX3PwP17hzrbLNKw0eT8Vfcyr%2Fuc3hQ6OH7yC0CQti58ExzgX9JccR6gdU9ZW7DLyRp627j4OO5DTEaRerXkrOiDVItEc1I5jv8GwFArSoJknS%2F07TNiRnefi6F1km7M9RjYUw%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/233487317945?_skw=yerba+mate+500g&hash=item365cedbbb9:g:89oAAOSwLNtgplLR&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbeMXn4%2FYHG2vcyJmi05YaaiwIXonLNq6WxGBYWg7--3BvYzvRhspsqBVjvWAp1x%2BiaTq1taPoiLilra4i8MQFwYTZ6fqZpLne00qIKqZGnp1MIm3WVbr7cAjPa2WMGjwLcz3PX8vvdSsV25WxmNT%2FE4J8WCphXMObDsmlE1dGAVSNbox6JvSDcjNWSe9YooJU2YpHfd8b1OzwX3JkGG%2BOSwKEcJRiZD5sqTb2%2FYin9sFeuOrh2W37qZCopgslTPlYMs5Yd74IB13Agxz6k3zoU4SQ2of5zSvHrA3g78wqsJQ%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1872,7 +1884,7 @@
       "grams": 500,
       "price": 8.66,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/286555738144?_skw=yerba+mate+500g&hash=item42b80d9020:g:7a0AAeSweitoSqbH",
+      "url": "https://www.ebay.co.uk/itm/286555738144?_skw=yerba+mate+500g&hash=item42b80d9020:g:7a0AAeSweitoSqbH&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYQ%2BSuQVBu%2BPQeLpFQjVZScmxDZG9QeklYWPiPwPTq241LGrSAYRfNQqw3bbcP3eCpJ8KuamY4qyhD%2Fw8KQqsmiOGCD7lcTbQN4JzKBzzSBrzQkDNoLzVSv04fF97aCVquRCd9peH%2Fvq1GwJy5DNlr%2FwdPUqlbrvh0DFdaVZAqlOG2lILj%2BlJPgHr3D2YoYtIhrx3Be0JghEa39R0dOhGn3QVNjIZ2vdiQmqL5hd6y%2B%2Fb5dhTpzHVDmqqrWeen3aiIqStFqPaD7cqCLN%2BHRI%2FttXp5shtWCo8klMxctCsGM%2Bw%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1896,7 +1908,7 @@
       "grams": 1000,
       "price": 17.46,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/397929040004?_skw=yerba+mate+500g&hash=item5ca66b4884:g:QZ0AAeSwJSpp~zzN&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaT7eJPwLzhrL7Tbz7sRhh%2BPCcQ8NHm5Ge7HCB3I%2FyaYISsojZ4aON9gAnsvFkmetVJeH%2B0pWv2bZLmbI92y47c9LJyE9NdjgCy1%2FSipq8OJDQVpxZlFoNL9whSvlJHevHvtV1PMGruacuHeMUap8eYv8HosXKVMmd2d5%2FIj7CaEELZqbBRk2Yq14ILcpL3v4DrEn89vl29yUfJawEoDrsFSjFRIjSCCEZOaKCefsdmo9bG33%2FPUKqQfhfG7%2BJSJVko7pPPccrIFj31uU8kw%2BeLuS8up7C1quk5DhIRECK8yA%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/397929040004?_skw=yerba+mate+500g&hash=item5ca66b4884:g:QZ0AAeSwJSpp~zzN&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaT7eJPwLzhrL7Tbz7sRhh%2BPCcQ8NHm5Ge7HCB3I%2FyaYISsojZ4aON9gAnsvFkmetVJeH%2B0pWv2bZLmbI92y47c9LJyE9NdjgCy1%2FSipq8OJDQVpxZlFoNL9whSvlJHevE1q2UC6j2zli6ZTB9PaeRQlmZzW0GFB9jBNI6BWTN0Y2w7JNhyjEPCDDIGeyP%2BM8Z5XR2P1o4TXi9IIpYSMKxCgRVbG7kdYm8ME911DuT3NZrCTNOoXE8XwnurK6BghfnwErJiXQj5IzE59UDJJe%2FOBYjKGCmAQI6tIoH8ceV8PQ%3D%3D",
       "isPromo": false,
       "promoKey": "envio_incluido",
       "promoDetails": "Envío incluido"
@@ -1926,6 +1938,18 @@
       "promoDetails": "Envío gratis"
     },
     {
+      "brand": "CBSé",
+      "title": "YERBA MATE CBSe Guarana Tea Energy Booster Weight Loss Tea 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 8.99,
+      "shop": "eBay",
+      "url": "https://www.ebay.co.uk/itm/202300040764?_skw=yerba+mate+500g&hash=item2f1a05a63c:g:4awAAOSwjOJmOoRE",
+      "isPromo": false,
+      "promoKey": "envio_gratis",
+      "promoDetails": "Envío gratis"
+    },
+    {
       "brand": "Pajarito",
       "title": "500g YERBA MATE PAJARITO HERBAL with Peppermint  TEA Energy Boost Weight Loss",
       "weight": "500g",
@@ -1939,24 +1963,12 @@
     },
     {
       "brand": "CBSé",
-      "title": "Y106 YERBA MATE CBSE GUARANA ENERGY BOOST! 500G TEA",
+      "title": "Y49 YERBA MATE CBSE NARANJA/ORANGE TEA 500G CON PALOS",
       "weight": "500g",
       "grams": 500,
       "price": 8.99,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/371669244433?_skw=yerba+mate+500g&hash=item5689369a11:g:Mb8AAOSwua1Z0igk",
-      "isPromo": false,
-      "promoKey": "envio_gratis",
-      "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "CBSé",
-      "title": "YERBA MATE CBSe Guarana Tea Energy Booster Weight Loss Tea 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 8.99,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/202300040764?_skw=yerba+mate+500g&hash=item2f1a05a63c:g:4awAAOSwjOJmOoRE",
+      "url": "https://www.ebay.co.uk/itm/371669244430?_skw=yerba+mate+500g&hash=item5689369a0e:g:XUcAAOSwwp5jUpCB&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZVheSzehU1CyooSf1sWyUXoFAKtUY9UvvI26b%2Fyjr17CLBGB8LwCyEjpDZssnwcktyfEZ15xJV8CdByyHoEdj%2FC%2F%2B8%2FSk%2BRYcGWc3d24eflyHpzWDM%2FW041Iv6m1twR3SwL%2F8wdntoscwZlcKnh0f0LC0IEre5fhbtHNqABYXUFPp5RYiBjsq96662Yg9hJhVwNtOull4LBJrbPhFwmXKB4ue9gXDBMCFxrdFjE7ZacZeROs3NFRyxHXUz7h4FvY5QjjXphKsnB%2FWWSwnCkV3h2I%2FSbm4WXrIhPxHeS5it%2Bg%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1968,7 +1980,19 @@
       "grams": 500,
       "price": 8.99,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/372001263774?_skw=yerba+mate+500g&hash=item569d00d09e:g:CBYAAOSwgs1jUoGT&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaoqo14DCXnnVY1iZ%2B%2BxI72vsHSdfSSY%2F0%2BzvNDMEelh8gme%2Bnd00xCqtpYoYglJJ88cgJgQf33hc75mJpyaotTJoAySTgQE7MhnhvVRC9yWVeTMqP2Qn%2BzcTsrdx0rWe56aFeT6XQty8eKV6PRKzFtZqc21K9%2F8ZqXB2jqWAH2KYsc%2BTULArvd7HcqMqzouTzMUuuvEwlOsEZecvNsOj%2FpGYF%2B0%2BWSpBbPXejIaG2TWtF3clk2Mxj0%2FNBtEPjw1TX6J2QrRnQSGYhPwSehEoqExNQ6wCOgRleYfGSK2czuXA%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/372001263774?_skw=yerba+mate+500g&hash=item569d00d09e:g:CBYAAOSwgs1jUoGT&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaoqo14DCXnnVY1iZ%2B%2BxI72vsHSdfSSY%2F0%2BzvNDMEelh8gme%2Bnd00xCqtpYoYglJJ88cgJgQf33hc75mJpyaotTJoAySTgQE7MhnhvVRC9yWVeTMqP2Qn%2BzcTsrdx0rWe4DfZZcUS%2B%2F%2BgvcdBtqshlMy%2Fko73zRu3tJXuAtmGlws7ep73qNWFwjU3a0ZcV30VJmtD2DalPIKsEfJa7Wb1l17syd9kMrh27fiotLrx4JP3Jn2VWR10clmDZyKhtkHXK94Y0vxXjhXzEJ7w%2BvWvnEBbEaArqIM63UtEGVMWYS%2Fw%3D%3D",
+      "isPromo": false,
+      "promoKey": "envio_gratis",
+      "promoDetails": "Envío gratis"
+    },
+    {
+      "brand": "CBSé",
+      "title": "Y106 YERBA MATE CBSE GUARANA ENERGY BOOST! 500G TEA",
+      "weight": "500g",
+      "grams": 500,
+      "price": 8.99,
+      "shop": "eBay",
+      "url": "https://www.ebay.co.uk/itm/371669244433?_skw=yerba+mate+500g&hash=item5689369a11:g:Mb8AAOSwua1Z0igk",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1999,12 +2023,12 @@
     },
     {
       "brand": "CBSé",
-      "title": "Y49 YERBA MATE CBSE NARANJA/ORANGE TEA 500G CON PALOS",
+      "title": "CBSe Pomelo- Grapefruit flavoured Yerba Mate Tea Weight Loss Energy Booster 500g",
       "weight": "500g",
       "grams": 500,
       "price": 8.99,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/371669244430?_skw=yerba+mate+500g&hash=item5689369a0e:g:XUcAAOSwwp5jUpCB&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZVheSzehU1CyooSf1sWyUXoFAKtUY9UvvI26b%2Fyjr17CLBGB8LwCyEjpDZssnwcktyfEZ15xJV8CdByyHoEdj%2FC%2F%2B8%2FSk%2BRYcGWc3d24eflyHpzWDM%2FW041Iv6m1twR3SsM6IrxFXSZunSiX3bYvFcagbGbrEmqW6OPVNvMv0pWaRQlG%2BvhZLcxOR5it3mpGWfF%2BOdpJIVsO8%2B6I5nuU7z9xsQCSFHQs7r%2BmPBoPWlrT77Fo1fTiV6h0rNS0w%2F4YUbDfJgxr6kyoNqNgG%2BY0ba4VZrVF4GGKnNgqdKH03zwg%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/202340732163?_skw=yerba+mate+500g&hash=item2f1c728d03:g:CtgAAOSwi7VmOn~s",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -2017,18 +2041,6 @@
       "price": 8.99,
       "shop": "eBay",
       "url": "https://www.ebay.co.uk/itm/154643413034?_skw=yerba+mate+500g&hash=item240177382a:g:IIAAAOSwtOhhYDPV",
-      "isPromo": false,
-      "promoKey": "envio_gratis",
-      "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "CBSé",
-      "title": "CBSe Pomelo- Grapefruit flavoured Yerba Mate Tea Weight Loss Energy Booster 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 8.99,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/202340732163?_skw=yerba+mate+500g&hash=item2f1c728d03:g:CtgAAOSwi7VmOn~s",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -2076,7 +2088,7 @@
       "grams": 1000,
       "price": 18.15,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/398351350659?_skw=yerba+mate+1kg&hash=item5cbf973b83:g:W7kAAeSw3BxqfJ9Z&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZxN5L3LaKFpAfEC83Z2R%2Fuiu%2FjEMav%2FN4IJfEdJfgfuDpEXqaU2za1mz%2Bi9BqsMcBu6B5cFhmHP0g2W0%2BxiLCqgP3FeTv%2F4M%2FUUxVUBI%2FcGzX63Ju%2FQuDhHCru8g%2FGcMU10ejrcDc0ViEqnm7lPci7R%2B0ZZpyq6aaySqqQ4XgEZNXSoAsUMp2PEYAXF79vXb9YYnF6zZRL1cUWof0fcgPQ6rCzG34COuPMpQaqzwOiLPOlJcj3Iuw2pcBZDBnX6O6c42%2Fr9aQjUcbvzNPvnk5RvM%2B9IMMFi7imxZ3Tlrfwaw%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/398351350659?_skw=yerba+mate+1kg&hash=item5cbf973b83:g:W7kAAeSw3BxqfJ9Z&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZxN5L3LaKFpAfEC83Z2R%2Fuiu%2FjEMav%2FN4IJfEdJfgfuDpEXqaU2za1mz%2Bi9BqsMcBu6B5cFhmHP0g2W0%2BxiLCqgP3FeTv%2F4M%2FUUxVUBI%2FcGzX63Ju%2FQuDhHCru8g%2FGcMU3hS39bF1O6d5rO2fkbi%2BQ%2FY2M%2FjbegQ%2FOJyQ8Av56d4YqyzPUkCh3WNI8A9VIdNGCkasixqOfEtUAr89a5N7VRyXy9nG3%2B%2BoZbA5dkLbVFJ1LtVxxKkc79HNKxhAVFU9bcHhRTuvpabpEiIJf5IOjQRuxEvdqgpWvUZfw0SKuNw%3D%3D",
       "isPromo": false,
       "promoKey": "envio_incluido",
       "promoDetails": "Envío incluido"
@@ -2088,7 +2100,7 @@
       "grams": 500,
       "price": 9.26,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/371669241044?_skw=yerba+mate+500g&hash=item5689368cd4:g:hREAAOxyCepSbZAb&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbGA78Q9E0yyJ%2BA67IW4Ldr2IkngeNSA7mBACY%2FfL4zMcP0wnDLJYe8Tgh%2FVWYKmd0YgkH0uuPmTxp126iuTkU50uii8S7VbJsivUXqo0ldLnoks54%2FgP1btsPEKjOhpQoGsyhSLtHkuh1zM9U3Wn6r6PQp4ZG3VXXmPoMvaakHFM9Mpl75kwmVpqjWwnui74PSWEtTx4mgbPRpg7RvwOWph20O%2ByInc6h86xXHG36fbtyrfoE%2B4RWJOvPymq6N%2Fh%2BaI2Fm0v381ZQ%2BDinZwyC7wxgLMvWxz2r9YZiCpioWIQ%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/371669241044?_skw=yerba+mate+500g&hash=item5689368cd4:g:hREAAOxyCepSbZAb&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbGA78Q9E0yyJ%2BA67IW4Ldr2IkngeNSA7mBACY%2FfL4zMcP0wnDLJYe8Tgh%2FVWYKmd0YgkH0uuPmTxp126iuTkU50uii8S7VbJsivUXqo0ldLnoks54%2FgP1btsPEKjOhpQoYKm0II7mnBWy2%2FzhxBEv0w%2FxQGqWTsmDGn6Oqd3e%2FyBlx%2Fj2WTthL6Vg6XoevDW%2BNIRP7hTys59nkVdzLYgFZcGXSONf1cPmsGb%2FYWSTidjLMR%2BYiHA00C%2BdWAX6O%2BOaIg3zEqsdY1W84HOtbHzAriOgtHAlfaVkIuUIpTze61Q%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -2116,18 +2128,6 @@
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "Amanda",
-      "title": "Yerba Mate Amanda azul no Stems 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 19.59,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-Amanda-azul-Stems/dp/B00NHXNIF6/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
     },
     {
       "brand": "Canarias",
@@ -2196,7 +2196,7 @@
       "grams": 500,
       "price": 10.08,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/371669199435?_skw=yerba+mate+500g&hash=item568935ea4b:g:BasAAOxyDEVSbY7m&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGY9XUWKYFCLcN%2B6srrJzEOBbS7JVk%2FzkTL0v%2F54hJTob2PMOy8tacfkVN3rII2%2Bn%2F6b2jkAlcivTZ0Us11FKuN1YOdMZZFJBuwDS8Hp%2BCjpVQ9Ey5LswGaSlmNJY5pfX4rbeatE8%2F0u1wgkGNbwXWYkGsXwGjqbEAV%2BqUJQ4stRFjoC5Kc1q09cZIdbWUzMuX%2BbRrjyO3Clnb%2F3OLWygFNKtjpaRoH%2BwJp1x1I4xZ%2BVI%2BuIv%2FHpsI9cwnvv%2B3QsmbFwqQFUZefv1yanOHLvwo68PqVPOfgQsWcURYKNJ3XP0g%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/371669199435?_skw=yerba+mate+500g&hash=item568935ea4b:g:BasAAOxyDEVSbY7m&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGY9XUWKYFCLcN%2B6srrJzEOBbS7JVk%2FzkTL0v%2F54hJTob2PMOy8tacfkVN3rII2%2Bn%2F6b2jkAlcivTZ0Us11FKuN1YOdMZZFJBuwDS8Hp%2BCjpVQ9Ey5LswGaSlmNJY5pfX4qlJ6d1SFpLcaqhfetc5qk2uW6XMywpqI%2BZ3gtCaHPAvNM6VgyPOf0wNQa6cbBEOHRTRHOHrPMHb2rvV1WKLslapg7Td8%2BG%2BEgM41GLwP25q2xA3JnniOAzjFbD3Ek7930CZ92c6tQwB9UKtLLg2OQIRHS4XivmRijphZAQiHBScA%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -2297,18 +2297,6 @@
       "promoDetails": ""
     },
     {
-      "brand": "Verde Mate",
-      "title": "Verde Mate Cactus de Juarez Tea 500g | Yerba Mate Tea from Brazil | Fruit-flavoured yerba mate | Stimulating yerba mate | Unsmoked | Vegan | Gluten free",
-      "weight": "500g",
-      "grams": 500,
-      "price": 11.69,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Verde-Mate-Fruit-Flavoured-Strongly-stimulating/dp/B077GCTSPD/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
       "brand": "Kraus",
       "title": "Yerba Mate Kraus Bio Mate Organic 500g",
       "weight": "500g",
@@ -2346,18 +2334,6 @@
     },
     {
       "brand": "Verde Mate",
-      "title": "Verde Mate Green Mango & Maracuya 0.5kg - Fruity Yerba Mate, Exotic Mate Tea, Brazilian",
-      "weight": "500g",
-      "grams": 500,
-      "price": 11.99,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/dp/B0BBVKZFM9/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
-      "brand": "Verde Mate",
       "title": "Verde Mate Green Mas IQ 0.5kg | Aromatic yerba mate with herbs and fruits | Mate tea | Mild taste | Natural caffeine | Yerba mate tea from Brazil | Air-dried green yerba mate | 500g",
       "weight": "500g",
       "grams": 500,
@@ -2381,16 +2357,28 @@
       "promoDetails": ""
     },
     {
-      "brand": "Pajarito",
-      "title": "Yerba Mate Pajarito Mint/Lemon 500g",
+      "brand": "Verde Mate",
+      "title": "Verde Mate Green Mango & Maracuya 0.5kg - Fruity Yerba Mate, Exotic Mate Tea, Brazilian",
       "weight": "500g",
       "grams": 500,
       "price": 11.99,
       "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-Pajarito-Mint-Lemon/dp/B00512EG0M/",
+      "url": "https://www.amazon.co.uk/dp/B0BBVKZFM9/",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
+    },
+    {
+      "brand": "Guarani",
+      "title": "Guarani Energia Yerba Mate Tea 500g | Best Before 02/2028 | New Sealed",
+      "weight": "500g",
+      "grams": 500,
+      "price": 12.5,
+      "shop": "eBay",
+      "url": "https://www.ebay.co.uk/itm/178465560948?_skw=yerba+mate+500g&hash=item298d605974:g:6XMAAeSwfVNqXEH1",
+      "isPromo": false,
+      "promoKey": "envio_gratis",
+      "promoDetails": "Envío gratis"
     },
     {
       "brand": "Playadito",
@@ -2436,6 +2424,42 @@
       "price": 15.59,
       "shop": "Amazon",
       "url": "https://www.amazon.co.uk/Yerba-Mate-Cruz-Malta-stems/dp/B001UO90BA/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
+      "brand": "Verde Mate",
+      "title": "Verde Mate Yerba Mate Tea Despalada 500g – Air-dried, Unsmoked, Without Stems or Powder, Pure Leaf Cut from Brazil",
+      "weight": "500g",
+      "grams": 500,
+      "price": 15.99,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Verde-Mate-Despalada-Flavored-stimulating/dp/B077GFGK6R/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
+      "brand": "Verde Mate",
+      "title": "Verde Mate Terere 0,5 kg | Yerbera | Metal tin with dispenser | Refreshing yerba mate 500 g | Brazilian | Green yerba mate | Yerba mate from Brazil | Air-dried",
+      "weight": "500g",
+      "grams": 500,
+      "price": 16.09,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Verde-mate-peppermint-Stimulation-refreshment/dp/B09YRHXV24/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
+      "brand": "Playadito",
+      "title": "Yerba Mate Playadito 1Kg ((10x1Kg))",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 78.99,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Yerba-Mate-Playadito-1Kg-10x1Kg/dp/B07D6QDSKS/",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
