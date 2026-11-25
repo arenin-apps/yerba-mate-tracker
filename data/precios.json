@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-24T12:07:24.490Z",
+  "actualizado": "2026-11-25T10:58:03.413Z",
   "fuentesConError": [],
   "afiliados": false,
   "envios": {
@@ -170,6 +170,18 @@
       "promoDetails": ""
     },
     {
+      "brand": "CBSé",
+      "title": "Yerba Mate CbSe Herbal/Mint Flavour (serranas) 1kg",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 7.2,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Yerba-CbSe-Herbal-Flavour-serranas/dp/B01KTMIN9S/",
+      "isPromo": true,
+      "promoKey": "rebajado",
+      "promoDetails": "Rebajado"
+    },
+    {
       "brand": "Playadito",
       "title": "Playadito Yerba Mate with stems x 500g",
       "weight": "500g",
@@ -225,6 +237,18 @@
       "price": 7.5,
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/1kg/yerba-mate-union-suave-1kg/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
+      "brand": "Rosamonte",
+      "title": "Rosamonte Yerba Mate Tea Traditional 1kg - Maturation time is 12 months | Detox and energy drink",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 7.69,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/%F0%9F%8C%BFRosamonte-Yerba-Mate-Tea-Traditional/dp/B094JTH7SP/",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
@@ -372,6 +396,18 @@
       "promoDetails": ""
     },
     {
+      "brand": "Amanda",
+      "title": "Yerba Mate Amanda Roja 1 kg",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 8.25,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Amanda-Yerba-Mate-Roja/dp/B004HVNAAK/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
       "brand": "Rosamonte",
       "title": "Yerba Mate Rosamonte 1Kg",
       "weight": "1kg",
@@ -489,18 +525,6 @@
       "url": "https://www.matemundo.co.uk/product-eng-1067-Cruz-de-Malta-Elaborada-Con-Palo-1kg.html",
       "isPromo": false,
       "promoDetails": ""
-    },
-    {
-      "brand": "CBSé",
-      "title": "Yerba Mate CbSe Herbal/Mint Flavour (serranas) 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 9.47,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-CbSe-Herbal-Flavour-serranas/dp/B01KTMIN9S/",
-      "isPromo": true,
-      "promoKey": "rebajado",
-      "promoDetails": "Rebajado"
     },
     {
       "brand": "Rosamonte",
@@ -653,6 +677,18 @@
       "promoDetails": "Rebajado"
     },
     {
+      "brand": "Amanda",
+      "title": "Amanda Yerba Mate Tea Despalada 1 kg | Yerba Mate Argentina |Detox and energy drink",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 9.9,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Amanda-Yerba-Despalada-Argentina-energy/dp/B09LQTF3HB/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
       "brand": "Canarias",
       "title": "Canarias Yerba Mate No stems - Despalada x 1kg",
       "weight": "1kg",
@@ -726,12 +762,24 @@
     },
     {
       "brand": "Rosamonte",
-      "title": "Rosamonte Yerba Mate Tea Traditional 1kg - Maturation time is 12 months | Detox and energy drink",
+      "title": "Yerba Mate Rosamonte Smooth (Suave) 1kg",
       "weight": "1kg",
       "grams": 1000,
-      "price": 10.11,
+      "price": 9.99,
       "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/%F0%9F%8C%BFRosamonte-Yerba-Mate-Tea-Traditional/dp/B094JTH7SP/",
+      "url": "https://www.amazon.co.uk/Yerba-Mate-Rosamonte-Smooth-Suave/dp/B005C9REXK/",
+      "isPromo": true,
+      "promoKey": "rebajado",
+      "promoDetails": "Rebajado"
+    },
+    {
+      "brand": "Cruz de Malta",
+      "title": "Yerba Mate Cruz de Malta With stems 1Kg [Grocery]",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 10,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Yerba-Cruz-Malta-stems-Grocery/dp/B002ZBE67K/",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
@@ -842,7 +890,7 @@
       "grams": 1000,
       "price": 10.23,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/231272724213?_skw=yerba+mate+1kg&hash=item35d8edb6f5:g:EogAAOxywXFSbY8o",
+      "url": "https://www.ebay.co.uk/itm/231272724213?_skw=yerba+mate+1kg&hash=item35d8edb6f5:g:EogAAOxywXFSbY8o&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7l%2FAXrBMt2hNgMpEPPy3GjcAsWbGO37bTB8%2B8kRhJ%2FVxnn14r6psbnHXoxwPp2el%2BbYRHWDVBAwwsnXhFp91hmIhonGoOrKFtaon8pPI2Hmx7IxBOmogM41Zk22dS8E2gWyCs8D4jM1ML8%2FDz0dGkJWLpkp6QfsM4QXTER9rMIulgI6z5XvjzoTUE%2FCeZjnBoLWW3US%2B8FuEqh81BRmyBhGIsf4zdzx2XDoz%2BOkXGdBGDXE15ApGbcIJiTWYLF535SIRN8KvtKYizVcUL0e%2BHMX%2Bb2B3vlPNoVX%2FkCJNHYeZA%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -938,6 +986,18 @@
       "promoDetails": ""
     },
     {
+      "brand": "CBSé",
+      "title": "Yerba Mate CBSé Guarana Energy 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 5.32,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Yerba-Mate-CBS%C3%A9-Guarana-Energy/dp/B01ETFETTE/",
+      "isPromo": true,
+      "promoKey": "rebajado",
+      "promoDetails": "Rebajado"
+    },
+    {
       "brand": "Rosamonte",
       "title": "Yerba Mate Rosamonte Especial 1kg (With Stems)",
       "weight": "1kg",
@@ -950,18 +1010,6 @@
       "promoDetails": "Envío gratis"
     },
     {
-      "brand": "CBSé",
-      "title": "Yerba Mate CBSé Guarana Energy 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 5.33,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-CBS%C3%A9-Guarana-Energy/dp/B01ETFETTE/",
-      "isPromo": true,
-      "promoKey": "rebajado",
-      "promoDetails": "Rebajado"
-    },
-    {
       "brand": "Pajarito",
       "title": "Yerba Mate Pajarito Elaborada Traditional 1kg THE BEST PRICE - FAST FREE P&P.",
       "weight": "1kg",
@@ -972,18 +1020,6 @@
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "Amanda",
-      "title": "Yerba Mate Amanda Roja 1 kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 10.85,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Amanda-Yerba-Mate-Roja/dp/B004HVNAAK/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
     },
     {
       "brand": "La Merced",
@@ -1028,7 +1064,7 @@
       "grams": 1000,
       "price": 10.99,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/231995246711?_skw=yerba+mate+1kg&hash=item3603fe8877:g:XLgAAOxyyUtSbY8Y&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7lEwRctITw912Sr8dv6totEhSMqNnsk%2BBk%2F1P7D6ye3v8CgIRBm6fzLJSp5F1tRDqzckhmbS4Ntwf8KrgkOqW0%2BywocYdflRvIpxPhBZPS5xEwVpjy8u9%2BQQatxBoJJJ8k4i2cySOYUz89f611Ad5pBOWc57LPsgctEthGEFla%2B5uAoTg01nt0KXGdztrBoRayiaj0d2mc6l2O%2BDTAI0SBfyBVrzaJ3xOoLpVDGaT2BsiL8Yofb87w%2BFkrmK3R%2BqwES%2FHEUiZMt3GzrGgavql8Xx%2BvdItpgz%2BcuMZgVn091xg%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/231995246711?_skw=yerba+mate+1kg&hash=item3603fe8877:g:XLgAAOxyyUtSbY8Y&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7lEwRctITw912Sr8dv6totEhSMqNnsk%2BBk%2F1P7D6ye3v8CgIRBm6fzLJSp5F1tRDqzckhmbS4Ntwf8KrgkOqW0%2BywocYdflRvIpxPhBZPS5xEwVpjy8u9%2BQQatxBoJJJ8lF%2FaKCgwLzQhqYnMl7Ujp%2B44v%2BnyAKBsLYXr2ERUGJ6G056uPT0RcLYPthmYLf%2BESmNn8GJM2SbQW6KkK8vU2lmfqjqhkY%2FtxPUrw3hq62IPmcNqrYzlblw66nYyQ6bHygMUlBuoHCNRdw4kzDTbbFQi6NEiL%2BKx7FncZmouM5RQ%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1312,7 +1348,7 @@
       "grams": 1000,
       "price": 11.93,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/231173974457?_skw=yerba+mate+1kg&hash=item35d30ae9b9:g:EwwAAOxywXFSbY8u",
+      "url": "https://www.ebay.co.uk/itm/231173974457?_skw=yerba+mate+1kg&hash=item35d30ae9b9:g:EwwAAOxywXFSbY8u&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7nVgs%2BZJnWzIIH5fAxmuPaEo0xzs2W9MLgjANcovrn2%2Bt6POMXloLnkKrCeRaEN%2BPnm5--41PRXHeHBjGpDT95QhK25foTbCVUoIpfFcU3xsWXdBNA3Y6nb3tWlUqliggI6HLvs4Fa2gdHI7NaqNPKPEMYyfCLb8KKV4tQEGY80Li8bjBFqaYwHTrYoJ2JgdS4x8xDpIWGVFw%2BJswq%2B31OJ4jkVID7fY6GVG%2FlVZAVhbIBrWhbB8NhGf4hY7iMdgkYUZELPHIh%2B%2FN3b0bXxY6%2BF9mAJXndIIU6vLjfSS2GSCA%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1424,6 +1460,18 @@
       "promoDetails": ""
     },
     {
+      "brand": "Canarias",
+      "title": "Yerba Mate Canarias 1kg",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 12.23,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Canarias-SYNCHKG023960-Yerba-Mate-1kg/dp/B004OUN1PS/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
       "brand": "Rosamonte",
       "title": "Rosamonte Yerba Mate Tea 500g 1kg 12 Month Matured Detox Energy Fast Delivery UK",
       "weight": "1kg",
@@ -1508,6 +1556,18 @@
       "promoDetails": ""
     },
     {
+      "brand": "Canarias",
+      "title": "Canarias- Yerba Mate ( Ideal for infusion) - 1 Kg",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 12.85,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Canarias-Yerba-Mate-Ideal-Infusion/dp/B00LUXV9S8/",
+      "isPromo": true,
+      "promoKey": "rebajado",
+      "promoDetails": "Rebajado"
+    },
+    {
       "brand": "Piporé",
       "title": "Yerba Mate Pipore 1kg Argentine Yerba with Stems",
       "weight": "1kg",
@@ -1539,42 +1599,6 @@
       "price": 6.5,
       "shop": "Urushop",
       "url": "https://urushop.co.uk/shop/yerba-mate/500g/kraus-pure-leaf-organic-500g/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
-      "brand": "Amanda",
-      "title": "Amanda Yerba Mate Tea Despalada 1 kg | Yerba Mate Argentina |Detox and energy drink",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 13.02,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Amanda-Yerba-Despalada-Argentina-energy/dp/B09LQTF3HB/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
-      "brand": "Rosamonte",
-      "title": "Yerba Mate Rosamonte Smooth (Suave) 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 13.14,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-Rosamonte-Smooth-Suave/dp/B005C9REXK/",
-      "isPromo": true,
-      "promoKey": "rebajado",
-      "promoDetails": "Rebajado"
-    },
-    {
-      "brand": "Cruz de Malta",
-      "title": "Yerba Mate Cruz de Malta With stems 1Kg [Grocery]",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 13.15,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Cruz-Malta-stems-Grocery/dp/B002ZBE67K/",
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
@@ -1616,6 +1640,18 @@
       "promoDetails": "Envío gratis"
     },
     {
+      "brand": "Rosamonte",
+      "title": "Yerba Mate Rosamonte Suave 1 kg (2.2 LB) from Argentina",
+      "weight": "1kg",
+      "grams": 1000,
+      "price": 13.61,
+      "shop": "Amazon",
+      "url": "https://www.amazon.co.uk/Yerba-Mate-Rosamonte-Suave-Argentina/dp/B004A7CJDU/",
+      "isPromo": false,
+      "promoKey": "",
+      "promoDetails": ""
+    },
+    {
       "brand": "Soul Mate",
       "title": "Soul Mate Orgánica Menta Limon 0.5kg (organic)",
       "weight": "500g",
@@ -1628,6 +1664,18 @@
     },
     {
       "brand": "CBSé",
+      "title": "Yerba Mate CBSé Guarana Energy 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 6.97,
+      "shop": "eBay",
+      "url": "https://www.ebay.co.uk/itm/227274266810?_skw=yerba+mate+500g&hash=item34ea9a18ba:g:zaYAAeSw6sppxVZy",
+      "isPromo": false,
+      "promoKey": "envio_gratis",
+      "promoDetails": "Envío gratis"
+    },
+    {
+      "brand": "CBSé",
       "title": "Yerba Mate CBSe Lemon 500g",
       "weight": "500g",
       "grams": 500,
@@ -1637,18 +1685,6 @@
       "isPromo": false,
       "promoKey": "",
       "promoDetails": ""
-    },
-    {
-      "brand": "CBSé",
-      "title": "Yerba Mate CBSé Guarana Energy 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 7.06,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/227274266810?_skw=yerba+mate+500g&hash=item34ea9a18ba:g:zaYAAeSw6sppxVZy",
-      "isPromo": false,
-      "promoKey": "envio_gratis",
-      "promoDetails": "Envío gratis"
     },
     {
       "brand": "Playadito",
@@ -1784,18 +1820,6 @@
     },
     {
       "brand": "Canarias",
-      "title": "Yerba Mate Canarias 1kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 16.08,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Canarias-SYNCHKG023960-Yerba-Mate-1kg/dp/B004OUN1PS/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
-      "brand": "Canarias",
       "title": "Yerba Mate Canarias Especial 1kg Premium Blend Uruguayan Yerba",
       "weight": "1kg",
       "grams": 1000,
@@ -1817,18 +1841,6 @@
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "Canarias",
-      "title": "Canarias- Yerba Mate ( Ideal for infusion) - 1 Kg",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 16.9,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Canarias-Yerba-Mate-Ideal-Infusion/dp/B00LUXV9S8/",
-      "isPromo": true,
-      "promoKey": "rebajado",
-      "promoDetails": "Rebajado"
     },
     {
       "brand": "Nobleza Gaucha",
@@ -1867,18 +1879,6 @@
       "promoDetails": ""
     },
     {
-      "brand": "Rosamonte",
-      "title": "Yerba Mate Rosamonte Suave 1 kg (2.2 LB) from Argentina",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 17.9,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-Rosamonte-Suave-Argentina/dp/B004A7CJDU/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
-    },
-    {
       "brand": "CBSé",
       "title": "Yerba Mate CBSe Guarana Energia Energy 500g",
       "weight": "500g",
@@ -1886,6 +1886,18 @@
       "price": 8.98,
       "shop": "eBay",
       "url": "https://www.ebay.co.uk/itm/371669244433?_skw=yerba+mate+500g&hash=item5689369a11:g:Mb8AAOSwua1Z0igk",
+      "isPromo": false,
+      "promoKey": "envio_gratis",
+      "promoDetails": "Envío gratis"
+    },
+    {
+      "brand": "CBSé",
+      "title": "Yerba Mate CBSe Pomelo Grapefruit Herbal Tea 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 8.98,
+      "shop": "eBay",
+      "url": "https://www.ebay.co.uk/itm/372001263774?_skw=yerba+mate+500g&hash=item569d00d09e:g:CBYAAOSwgs1jUoGT",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1910,18 +1922,6 @@
       "price": 8.98,
       "shop": "eBay",
       "url": "https://www.ebay.co.uk/itm/371669244435?_skw=yerba+mate+500g&hash=item5689369a13:g:o3AAAOSwMgdjT-hp",
-      "isPromo": false,
-      "promoKey": "envio_gratis",
-      "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "CBSé",
-      "title": "Yerba Mate CBSe Pomelo Grapefruit Herbal Tea 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 8.98,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/372001263774?_skw=yerba+mate+500g&hash=item569d00d09e:g:CBYAAOSwgs1jUoGT",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1952,12 +1952,12 @@
     },
     {
       "brand": "CBSé",
-      "title": "Apple & Pear Valley Fruits CBSe Yerba Mate Tea Weight Loss Energy Booster 500g",
+      "title": "Yerba Mate CBSe Hierbas Serranas Mint 500g",
       "weight": "500g",
       "grams": 500,
       "price": 8.99,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/202301055536?_skw=yerba+mate+500g&hash=item2f1a152230:g:akgAAOSwoipmO7LA",
+      "url": "https://www.ebay.co.uk/itm/231995305556?_skw=yerba+mate+500g&hash=item3603ff6e54:g:usMAAOSwXl1jUVqd",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -1976,12 +1976,12 @@
     },
     {
       "brand": "CBSé",
-      "title": "Yerba Mate CBSe Hierbas Serranas Mint 500g",
+      "title": "Apple & Pear Valley Fruits CBSe Yerba Mate Tea Weight Loss Energy Booster 500g",
       "weight": "500g",
       "grams": 500,
       "price": 8.99,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/231995305556?_skw=yerba+mate+500g&hash=item3603ff6e54:g:usMAAOSwXl1jUVqd",
+      "url": "https://www.ebay.co.uk/itm/202301055536?_skw=yerba+mate+500g&hash=item2f1a152230:g:akgAAOSwoipmO7LA",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -2048,24 +2048,24 @@
     },
     {
       "brand": "CBSé",
-      "title": "Yerba Mate CBSe Valley Fruits Apple and Pear 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 8.99,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/231577263738?_skw=yerba+mate+500g&hash=item35eb149e7a:g:uigAAOSwCBtjcj6t",
-      "isPromo": false,
-      "promoKey": "envio_gratis",
-      "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "CBSé",
       "title": "YERBA MATE CBSE NARANJA / ORANGE TEA 500G LooseLeaf Tea Energy Booster",
       "weight": "500g",
       "grams": 500,
       "price": 8.99,
       "shop": "eBay",
       "url": "https://www.ebay.co.uk/itm/155208497047?_skw=yerba+mate+500g&hash=item242325b797:g:i8UAAOSw7~pjSZIo",
+      "isPromo": false,
+      "promoKey": "envio_gratis",
+      "promoDetails": "Envío gratis"
+    },
+    {
+      "brand": "CBSé",
+      "title": "Yerba Mate CBSe Valley Fruits Apple and Pear 500g",
+      "weight": "500g",
+      "grams": 500,
+      "price": 8.99,
+      "shop": "eBay",
+      "url": "https://www.ebay.co.uk/itm/231577263738?_skw=yerba+mate+500g&hash=item35eb149e7a:g:uigAAOSwCBtjcj6t",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -2165,18 +2165,6 @@
       "isPromo": true,
       "promoKey": "rebajado",
       "promoDetails": "Rebajado"
-    },
-    {
-      "brand": "Rosamonte",
-      "title": "Yerba Mate Rosamonte Despalada 1kg (No Stems)",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 19.55,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-Rosamonte-Despalada-Stems/dp/B006ZJK0F0/",
-      "isPromo": false,
-      "promoKey": "",
-      "promoDetails": ""
     },
     {
       "brand": "Canarias",
@@ -2295,18 +2283,6 @@
       "shop": "MateMundo",
       "url": "https://www.matemundo.co.uk/product-eng-10702-Yerba-Mate-start-1KG-THE-MOST-POWERFUL-CATEGORIES-El-Fuego.html",
       "isPromo": false,
-      "promoDetails": ""
-    },
-    {
-      "brand": "Pajarito",
-      "title": "Yerba Mate Pajarito Organic 500g",
-      "weight": "500g",
-      "grams": 500,
-      "price": 10.74,
-      "shop": "Amazon",
-      "url": "https://www.amazon.co.uk/Yerba-Mate-Pajarito-Organic-500g/dp/B00DRPSWDC/",
-      "isPromo": false,
-      "promoKey": "",
       "promoDetails": ""
     },
     {
@@ -2448,7 +2424,7 @@
       "grams": 1000,
       "price": 33.53,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/373737574470?_skw=yerba+mate+1kg&hash=item57047ed046:g:kcsAAOSwBothUv58&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7muIoqLR7g2X1f71x%2F49VEC3vdKhVGpJijvPIrgPRAVThqaNxWP%2BYOVAud12udvje2BaKhRS9pteTIbCTG0XDGshhRFuSleqCH3Z1oCwsJ2pn%2BctujYex47XlTruryqOiKtfqXK58PK%2FAIuvH8MIMg31jc3zJKQSx%2BKh7jqcb4VonIXSTu9U65BwBvTxhFWHokMJ57I2yLV0OujTVy0gvam0mC8JtlFex2oFy7FaE09k6iTyDnsLU3BfRml6Y7RyciIDfswNBph0IvXs9Vox7uFcyELR2tI9G89zMSBWaVjuw%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/373737574470?_skw=yerba+mate+1kg&hash=item57047ed046:g:kcsAAOSwBothUv58",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -2484,19 +2460,7 @@
       "grams": 1000,
       "price": 56.49,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/234207916394?_skw=yerba+mate+1kg&hash=item3687e1316a:g:jfMAAOSwsgphUv5-&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7mIWK13D3ZzBQFE3DewB8mkd76btDlSSoSmg9NLvO9NBOI8JzBtNc2SoY0zcZUi%2F8o78sjfxt2VyPZ12YOmSgaGBTb1DaGm8pu7921PfQUbm68shZr2hl9ozLfsasWnbhxiQ0oTWff55I%2Fcz8fochkTRNAck5kpI2NkgKCM%2BJdRVwH7DICyW9fYmsJqbvF6r2yFOfGCAVS%2FQ1tslVlQXr2UdFT8FHCq%2BQyIDexd%2FjVzy7kxZFv9JRzILj9IhrhkhtFinq0CUPB3QodCpj4rgZtmkgBtr64C6MEDZRVUCtmQmw%3D%3D",
-      "isPromo": false,
-      "promoKey": "envio_gratis",
-      "promoDetails": "Envío gratis"
-    },
-    {
-      "brand": "Taragüi",
-      "title": "Yerba Mate Taragui Roja 6 x 1kg Argentine Loose Leaf Tea with Stems (6kg)",
-      "weight": "1kg",
-      "grams": 1000,
-      "price": 56.49,
-      "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/373737574577?_skw=yerba+mate+1kg&hash=item57047ed0b1:g:nIsAAOSw5othUv5-&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7nRQfyNey3Cv4JUfGYrwLxQrh6j4cSXBBJmoDleCQQjTc8VkclwXByoDHIQ2RQYgfH9yP28nr2qqleZjdXWnUIAvXDsd0E2kJLgPJwyW0KenEEerVKSznuWUEgnHRXY%2BpHu3YAtEcbm1gWxS%2BKM23laclgJJkiEOhgFmEVq%2F3Yrjy34g%2FlEtRAy6D8FVaNiW2MG1qyJGBFbyAkAJPeZJVRt6X8xLZYo1VyPE8rj0En%2BR6z%2BvUEOZWCMs0MYH39GV2Pcs6A%2F%2BynLb2N7gdCXKHpK2PrM1P3BvK3TnOVH9lGhNA%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/234207916394?_skw=yerba+mate+500g&hash=item3687e1316a:g:jfMAAOSwsgphUv5-&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7mIWK13D3ZzBQFE3DewB8mkd76btDlSSoSmg9NLvO9NBOI8JzBtNc2SoY0zcZUi%2F8o78sjfxt2VyPZ12YOmSgaGBTb1DaGm8pu7921PfQUbm68shZr2hl9ozLfsasWnbhyYL%2FnP5O%2BBgvyUIoMNwntkL4l8StSDYmNwxYIy8K3vly2XSQ976yz6cjWkQTKSHDdBcFNhKw75Y1FvUu5OaknJTQ18wAqruX%2Bzb7DfyTx0%2FkQUQfkqhGjIh4SrmikYXiC5%2FVMxK38DsdU2GsCZMcyfmOYj0CDL%2Bi621xJbWKqNhw%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -2508,7 +2472,7 @@
       "grams": 1000,
       "price": 78.22,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/373737574469?_skw=yerba+mate+1kg&hash=item57047ed045:g:dikAAOSwx49hUv58&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7mXkhAPIlcff2bXqQ3uqmvZtkPEk1epuTv8Mwi1WH072Adwqu1cr3h5LxYDEWsGW1Q8otHaKryj%2FXcKGBJNmdbr00DkvAnEAWcCtPQDcrPGO8GDHLa6vPO8WqDwoqMd%2FD%2FIxWi%2FA7vEx0vk9DRkRzOiyIR4QN4vZCdXQQG3i6n4mz9joElQi5wZu3W2LOcrRgVY82IuApP51umvS%2BUTThR7rz41AWzDKkh%2FJMKsxqyCBhfZIUsb470cG8JG8j%2BmMSoK0RFi1hrJfz12lpY3FZJ91RzZk9xp6NicdyN295NMGg%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/373737574469?_skw=yerba+mate+1kg&hash=item57047ed045:g:dikAAOSwx49hUv58&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7mXkhAPIlcff2bXqQ3uqmvZtkPEk1epuTv8Mwi1WH072Adwqu1cr3h5LxYDEWsGW1Q8otHaKryj%2FXcKGBJNmdbr00DkvAnEAWcCtPQDcrPGO8GDHLa6vPO8WqDwoqMd%2FD%2B1UsW%2B18OknfnT6yAnjOVgj9nMh1niVDEKQ4RDrzRzFb4s0%2BTxbLl9CPD4FPdjGof7MimxVLH3eBnoLrc92qMhVzFAGsmnnKnvRolkxVOO7zI%2BY2SD9DNt%2BBsm5HmEoc6pOOmfY4QfUe3oJgcR2eCS5BDxuJu8b46uU8wHkPgA4A%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
@@ -2520,7 +2484,7 @@
       "grams": 1000,
       "price": 81.97,
       "shop": "eBay",
-      "url": "https://www.ebay.co.uk/itm/231308566016?_skw=yerba+mate+1kg&hash=item35db109e00:g:NdUAAOxyd8NSbY~R&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7nmlu1ok%2BgKO1hfykr3k7zRV58iaz%2B8yTIyMeDBJR5H%2F2Rw59WzeOGlRWyO8gFS9MShKQh2uJRpqe4zRX%2FxMT%2BR5v9Bt%2Bac%2FGiveoJCDxcM%2FQ6B0KNl4Cr1dTX6%2B33%2BzQ0y23QcBAONwc6itMenepifNAM4CNSOmCPX8j80JeNGKZ4NRoBBFA%2Fh61eVbgZ2i3g2p1B2gO5fAK3FThOr3oCVbfAgcvtoRNH3DXrWR8Ybth6bgS5ET6Ys2aRpU7jbtIFQ1SurUdiahuL0BOfPBCORSiTUVwEaGrct%2F7bzYgexTg%3D%3D",
+      "url": "https://www.ebay.co.uk/itm/231308566016?_skw=yerba+mate+1kg&hash=item35db109e00:g:NdUAAOxyd8NSbY~R&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7nmlu1ok%2BgKO1hfykr3k7zRV58iaz%2B8yTIyMeDBJR5H%2F2Rw59WzeOGlRWyO8gFS9MShKQh2uJRpqe4zRX%2FxMT%2BR5v9Bt%2Bac%2FGiveoJCDxcM%2FQ6B0KNl4Cr1dTX6%2B33%2BzQ1Dic3mqUZrQr7MsWKUaBSgK0WBCCeD3CQJVrYR5Ppa%2FugZfbSUOXqAMrRHG8I6LuRjsDVxLipD2BmLjNl0F3iipCDDUa56RxG1u1gi2JFwL%2FXApsmi9vGTdbgMdh7SKma5wgh7cyasTqy%2BcxkyHqdBlusAcYXovQ05H8l918CiLg%3D%3D",
       "isPromo": false,
       "promoKey": "envio_gratis",
       "promoDetails": "Envío gratis"
